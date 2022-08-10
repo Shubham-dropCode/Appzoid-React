@@ -24,7 +24,7 @@ const WhoAreWe = () => {
 
           <div className="col-lg-5 col-md-6">
             <img
-              src="images/about.jpg"
+              src="../images/AboutUs02.jpg"
               className="img-fluid rounded shadow"
               alt=""
             />

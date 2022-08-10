@@ -4,9 +4,8 @@ import Feature from "./Feature";
 import Hero from "./Hero";
 import LatestBlog from "./LatestBlog";
 import NumberCounter from "./NumberCounter";
+import PartnersBrands from "./PartnersBrands";
 import QuickService from "./QuickService";
-
-import Slider from "./Slider";
 import Testimonial from "./Testimonial";
 import WhoAreWe from "./WhoAreWe";
 
@@ -18,10 +17,11 @@ const Main = () => {
       <Feature />
       <QuickService />
       <WhoAreWe />
-      <NumberCounter />
       <ComingSoon />
+      <NumberCounter />
       <Testimonial />
       <LatestBlog />
+      <PartnersBrands />
     </>
   );
 };

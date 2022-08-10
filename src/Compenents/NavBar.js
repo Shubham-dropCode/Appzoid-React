@@ -25,7 +25,7 @@ const NavBar = () => {
                         data-feather="mail"
                         className="fea icon-sm text-primary"
                       ></i>{" "}
-                      support@starty.com
+                      <b> WebMail Login</b> ,
                     </a>
                   </li>
                   <li className="list-inline-item mb-0 ms-3">
@@ -34,7 +34,7 @@ const NavBar = () => {
                         data-feather="map-pin"
                         className="fea icon-sm text-primary"
                       ></i>{" "}
-                      4432 Pick Street Denver, CO 80203
+                      Contact Us: <b>+91-40-40025535</b>
                     </a>
                   </li>
                 </ul>

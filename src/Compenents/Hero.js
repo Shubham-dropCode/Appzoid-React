@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="bg-home zoom-image d-flex align-items-center">
         <img
           className="bg-overlay image-wrap"
-          src="../images/bg/finance01.jpg"
+          src="../images/bg/slide-1-1.jpg"
         />
         <div className="bg-overlay bg-linear-gradient"></div>
         <div className="container">
