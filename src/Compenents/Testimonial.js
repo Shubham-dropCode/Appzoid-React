@@ -1,45 +1,28 @@
 import React from "react";
+import Slider from "react-slick";
 
 const Testimonial = () => {
-  //   if (document.getElementsByClassName("tiny-three-item").length > 0) {
-  //     var slider = tns({
-  //       container: ".tiny-three-item",
-  //       controls: false,
-  //       mouseDrag: true,
-  //       loop: true,
-  //       rewind: true,
-  //       autoplay: true,
-  //       autoplayButtonOutput: false,
-  //       autoplayTimeout: 3000,
-  //       navPosition: "bottom",
-  //       speed: 400,
-  //       gutter: 12,
-  //       responsive: {
-  //         992: {
-  //           items: 3,
-  //         },
-
-  //         767: {
-  //           items: 2,
-  //         },
-
-  //         320: {
-  //           items: 1,
-  //         },
-  //       },
-  //     });
-  //   }
+  const setting = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 1000,
+  };
   return (
     <React.Fragment>
-      <section className="section">
+      <section className="section pb-4">
         <div class="container mt-60 pt-0">
           <div className="row justify-content-center mb-4">
             <div className="col-12">
               <div className="section-title mb-4 pb-2 text-center">
-                <h4 className="title mb-3">Steps to Start Partnership</h4>
+                <h4 className="title mb-3">Testimonials</h4>
                 <p className="text-muted para-desc mx-auto mb-0">
-                  Our design projects are fresh and simple and will benefit your
-                  business greatly. Learn more about our work!
+                  Here are testimonials from clients that we have worked with
+                  and are happy to share their opinion about the process and the
+                  results.
                 </p>
               </div>
             </div>
@@ -48,107 +31,81 @@ const Testimonial = () => {
           <div class="row">
             <div class="col-12">
               <div class="tiny-three-item">
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/01.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " It seems that only fragments of the original text
-                        remain in the Lorem Ipsum texts used today. "
-                      </p>
-                      <h6 class="text-primary">- Thomas Israel</h6>
+                <Slider {...setting}>
+                  <div class="tiny-slide">
+                    <div class="card border-0 text-center">
+                      <div class="card-body">
+                        {/* <img
+                          src="images/client/01.jpg"
+                          class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
+                          alt=""
+                        /> */}
+                        <p class="text-muted mt-4">
+                          " You guys rock! Thank you for making it painless,
+                          pleasant and most of all hassle free! I wish I would
+                          have thought of it first. I am really satisfied with
+                          my first Smart phone service. "
+                        </p>
+                        <h6 class="text-primary">- Akash Singh</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/02.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " The most well-known dummy text is the 'Lorem Ipsum',
-                        which is said to have originated in the 16th century. "
-                      </p>
-                      <h6 class="text-primary">- Carl Oliver</h6>
+                  <div class="tiny-slide">
+                    <div class="card border-0 text-center">
+                      <div class="card-body">
+                        {/* <img
+                          src="images/client/02.jpg"
+                          class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
+                          alt=""
+                        /> */}
+                        <p class="text-muted mt-4">
+                          " Appzoid did great job with fixing my mobile for a
+                          good price. I recommend any body with mobile problems,
+                          they will give you excellent service to all his
+                          customers. "
+                        </p>
+                        <h6 class="text-primary">- Prashant Aher</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/03.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " One disadvantage of Lorum Ipsum is that in Latin
-                        certain letters appear more frequently than others. "
-                      </p>
-                      <h6 class="text-primary">- Barbara McIntosh</h6>
+                  <div class="tiny-slide">
+                    <div class="card border-0 text-center">
+                      <div class="card-body">
+                        {/* <img
+                          src="images/client/03.jpg"
+                          class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
+                          alt=""
+                        /> */}
+                        <p class="text-muted mt-4">
+                          "I was amazed at the quality of service. I like
+                          Appzoid more and more each day because it makes my
+                          life a lot easier. Thanks guys, keep up the good work!
+                          I recommend Appzoid to everyone."
+                        </p>
+                        <h6 class="text-primary">- Jai Patil</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/04.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " Thus, Lorem Ipsum has only limited suitability as a
-                        visual filler for German texts. "
-                      </p>
-                      <h6 class="text-primary">- Jill Webb</h6>
+                  <div class="tiny-slide">
+                    <div class="card border-0 text-center">
+                      <div class="card-body">
+                        {/* <img
+                          src="images/client/04.jpg"
+                          class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
+                          alt=""
+                        /> */}
+                        <p class="text-muted mt-4">
+                          " Keep up the excellent work. Thank you so much for
+                          your help. This is simply unbelievable! "
+                        </p>
+                        <h6 class="text-primary">- Om Mishra</h6>
+                      </div>
                     </div>
                   </div>
-                </div>
-
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/05.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " There is now an abundance of readable dummy texts.
-                        These are usually used when a text is required. "
-                      </p>
-                      <h6 class="text-primary">- Dean Tolle</h6>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="tiny-slide">
-                  <div class="card border-0 text-center">
-                    <div class="card-body">
-                      <img
-                        src="images/client/06.jpg"
-                        class="img-fluid avatar avatar-small rounded-circle mx-auto shadow"
-                        alt=""
-                      />
-                      <p class="text-muted mt-4">
-                        " According to most sources, Lorum Ipsum can be traced
-                        back to a text composed by Cicero. "
-                      </p>
-                      <h6 class="text-primary">- Christa Smith</h6>
-                    </div>
-                  </div>
-                </div>
+                </Slider>
               </div>
             </div>
           </div>

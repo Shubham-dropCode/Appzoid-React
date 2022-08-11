@@ -35,11 +35,11 @@ const LatestBlog = () => {
                     href="blog-detail-five.html"
                     className="h5 title text-dark d-block mb-0"
                   >
-                    Building Your Corporate Identity from Starty
+                    What is Liquid Damage?
                   </a>
                   <p className="text-muted mt-2 mb-2">
-                    The most well-known dummy text is the 'Lorem Ipsum', in the
-                    16th century.
+                    Damage that occurs due to liquids like water, tea, coffee,
+                    etc. Is known as liquid ...
                   </p>
                   <a href="blog-detail-five.html" className="link text-dark">
                     Read More{" "}
@@ -66,11 +66,11 @@ const LatestBlog = () => {
                     href="blog-detail-five.html"
                     className="h5 title text-dark d-block mb-0"
                   >
-                    The Dark Side of Overnight Success
+                    What is Physical Damage?
                   </a>
                   <p className="text-muted mt-2 mb-2">
                     The most well-known dummy text is the 'Lorem Ipsum', in the
-                    16th century.
+                    16th century....
                   </p>
                   <a href="blog-detail-five.html" className="link text-dark">
                     Read More{" "}
@@ -97,11 +97,11 @@ const LatestBlog = () => {
                     href="blog-detail-five.html"
                     className="h5 title text-dark d-block mb-0"
                   >
-                    The Right Hand of Business IT World
+                    How to protect Your device from Physical Damage?
                   </a>
                   <p className="text-muted mt-2 mb-2">
-                    The most well-known dummy text is the 'Lorem Ipsum', in the
-                    16th century.
+                    #1 Use a Screen Protector / Screen Guard. The Display of
+                    your smartphone is most ...
                   </p>
                   <a href="blog-detail-five.html" className="link text-dark">
                     Read More{" "}

@@ -1,10 +1,14 @@
 import React from "react";
 
 const Footer = () => {
+  const CurrDate = () => {
+    const prv = new Date().getFullYear();
+    console.log(prv);
+  };
   return (
     <React.Fragment>
       <footer className="footer bg-footer">
-        <div className="py-5 footer-border-bottom">
+        <div className="py-5 bg-primary footer-border-bottom">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-md-8">
@@ -27,7 +31,7 @@ const Footer = () => {
                 <div className="text-md-end ms-5 ms-sm-0">
                   <a
                     href=""
-                    className="btn btn-primary"
+                    className="btn btn-warning"
                     data-bs-toggle="modal"
                     data-bs-target="#contact-popup"
                   >
@@ -45,58 +49,19 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                     <a href="#" className="logo-footer">
-                      <img src="images/logo-light.png" height="28" alt="" />
+                      <img src="./../images/logo-light-appzoid.png" alt="" />
                     </a>
                     <p className="mt-4">
-                      Our design projects are fresh and simple and will benefit
-                      your business greatly. Learn more about our work!
+                      Being the best in our field means that we are committed to
+                      every project, we have ingenious ideas that become reality
+                      and we make every client happy. Appzoid is the coherent,
+                      consistent, specialized in all brand smart devices quick
+                      repair.
                     </p>
                     <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                       <li className="list-inline-item">
                         <a
-                          href="https://1.envato.market/starty"
-                          target="_blank"
-                          className="rounded"
-                        >
-                          <i
-                            className="uil uil-shopping-cart align-middle"
-                            title="Buy Now"
-                          ></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          href="https://dribbble.com/shreethemes"
-                          target="_blank"
-                          className="rounded"
-                        >
-                          <i
-                            className="uil uil-dribbble align-middle"
-                            title="dribbble"
-                          ></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          href="https://www.behance.net/shreethemes"
-                          target="_blank"
-                          className="rounded"
-                        >
-                          <i className="uil uil-behance" title="Behance"></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          href="http://linkedin.com/company/shreethemes"
-                          target="_blank"
-                          className="rounded"
-                        >
-                          <i className="uil uil-linkedin" title="Linkedin"></i>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a
-                          href="https://www.facebook.com/shreethemes"
+                          href="https://www.facebook.com/"
                           target="_blank"
                           className="rounded"
                         >
@@ -108,7 +73,16 @@ const Footer = () => {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="https://www.instagram.com/shreethemes/"
+                          href="http://linkedin.com"
+                          target="_blank"
+                          className="rounded"
+                        >
+                          <i className="uil uil-linkedin" title="Linkedin"></i>
+                        </a>
+                      </li>
+                      <li className="list-inline-item">
+                        <a
+                          href="https://www.instagram.com/"
                           target="_blank"
                           className="rounded"
                         >
@@ -120,7 +94,7 @@ const Footer = () => {
                       </li>
                       <li className="list-inline-item">
                         <a
-                          href="https://twitter.com/shreethemes"
+                          href="https://twitter.com/"
                           target="_blank"
                           className="rounded"
                         >
@@ -141,19 +115,6 @@ const Footer = () => {
                           ></i>
                         </a>
                       </li>
-
-                      <li className="list-inline-item">
-                        <a
-                          href="https://forms.gle/QkTueCikDGqJnbky9"
-                          target="_blank"
-                          className="rounded"
-                        >
-                          <i
-                            className="uil uil-file align-middle"
-                            title="customization"
-                          ></i>
-                        </a>
-                      </li>
                     </ul>
                   </div>
 
@@ -168,67 +129,50 @@ const Footer = () => {
                       </li>
                       <li>
                         <a href="page-services-two.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i>{" "}
-                          Services
+                          <i className="uil uil-angle-right-b me-1"></i> Our
+                          Product
                         </a>
                       </li>
                       <li>
                         <a href="page-team.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Team
+                          <i className="uil uil-angle-right-b me-1"></i> Coming
+                          Soon
                         </a>
                       </li>
                       <li>
                         <a href="page-pricing.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a href="blog-grid.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="portfolio-detail-four.html"
-                          className="text-foot"
-                        >
-                          <i className="uil uil-angle-right-b me-1"></i> Project
+                          <i className="uil uil-angle-right-b me-1"></i> Contact
+                          Us
                         </a>
                       </li>
                     </ul>
                   </div>
 
                   <div className="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                    <h6 className="footer-head">Usefull Links</h6>
+                    <h6 className="footer-head">Latest News</h6>
                     <ul className="list-unstyled footer-list mt-4">
                       <li>
                         <a href="index.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Terms
-                          of Services
+                          <i className="uil uil-angle-right-b me-1"></i> What is
+                          Liquid Damage
                         </a>
                       </li>
                       <li>
                         <a href="index.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Privacy
-                          Policy
+                          <i className="uil uil-angle-right-b me-1"></i> What is
+                          Physical Damage?
                         </a>
                       </li>
                       <li>
                         <a href="page-contact.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i> Contact
-                          Us
+                          <i className="uil uil-angle-right-b me-1"></i> How to
+                          protect Your device from Physical Damage?
                         </a>
                       </li>
                       <li>
                         <a href="index.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i>{" "}
-                          Changelog
-                        </a>
-                      </li>
-                      <li>
-                        <a href="page-elements.html" className="text-foot">
-                          <i className="uil uil-angle-right-b me-1"></i>{" "}
-                          Components
+                          <i className="uil uil-angle-right-b me-1"></i> How to
+                          protect Your device from Liquid Damage?
                         </a>
                       </li>
                     </ul>
@@ -270,16 +214,14 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col">
                 <div className="text-center">
-                  <p className="mb-0 text-muted">
-                    <script>document.write(new Date().getFullYear())</script> ©
-                    Starty. Design with{" "}
-                    <i className="mdi mdi-heart text-danger"></i> by{" "}
+                  <p class="mb-0 text-foot">
+                    © Copyright {new Date().getFullYear()}
                     <a
-                      href="https://shreethemes.in/"
+                      href="http://www.shreethemes.in/"
                       target="_blank"
-                      className="text-reset"
+                      class="text-reset"
                     >
-                      Shreethemes
+                      . Appzoid by WISH
                     </a>
                     .
                   </p>

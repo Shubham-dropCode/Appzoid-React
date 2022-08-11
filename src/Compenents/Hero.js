@@ -1,5 +1,4 @@
 import React from "react";
-import bgImg from "../images/bg/finance01.jpg";
 
 const Hero = () => {
   return (
@@ -22,7 +21,7 @@ const Hero = () => {
                 </p>
                 <div className="mt-4 pt-2">
                   <a href="" className="btn btn-primary m-1">
-                    Our Service
+                    REQUEST FOR SERVICE
                   </a>
                 </div>
               </div>

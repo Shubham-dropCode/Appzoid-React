@@ -37,7 +37,6 @@ const NumberCounter = () => {
     <React.Fragment>
       <Parallax
         className="section bg-primary"
-        // data-jarallax='{"speed": 0.5}'
         bgImage="../images/cta04.png"
         style={{ innerHeight: "100%" }}
         strength={-450}
