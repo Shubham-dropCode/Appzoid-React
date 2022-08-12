@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   function toggleMenu() {
@@ -123,29 +124,29 @@ const NavBar = () => {
           <div id="navigation">
             <ul className="navigation-menu nav-right nav-light">
               <li className="has-submenu parent-parent-menu-item">
-                <a href="">HOME</a>
+                <Link to="/">HOME</Link>
                 <span className="menu-arrow"></span>
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
-                <a href="">ABOUT US</a>
+                <Link to="/AboutUs">ABOUT US</Link>
                 <span className="menu-arrow"></span>
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
-                <a href="">OUR PRODUCT</a>
+                <Link to="/OurProducts">OUR PRODUCT</Link>
                 <span className="menu-arrow"></span>
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
-                <a href="">COMING SOON</a>
+                <Link to="/ComingSoon">COMING SOON</Link>
                 <span className="menu-arrow"></span>
               </li>
 
               <li>
-                <a href="page-contact.html" className="sub-menu-item">
+                <Link to="/ContactUs" className="sub-menu-item">
                   CONTACT US
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

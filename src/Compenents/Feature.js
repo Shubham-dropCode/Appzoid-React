@@ -6,7 +6,7 @@ const Feature = () => {
       <section className="section pb-0">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
+            <div className="col-lg-3 col-md-4">
               <div className="features feature-primary feature-bg border-0 p-4 rounded shadow">
                 <div className="fea-icon rounded text-white title-dark">
                   <i className="uil uil-wrench"></i>
@@ -28,7 +28,7 @@ const Feature = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6 ">
+            <div className="col-lg-3 col-md-4 ">
               <div className="features feature-primary feature-bg border-0 p-4 rounded shadow">
                 <div className="fea-icon rounded text-white title-dark">
                   <i className="uil uil-cog"></i>
@@ -49,7 +49,7 @@ const Feature = () => {
               </div>
             </div>
 
-            <div className="col-lg-4 col-md-6">
+            <div className="col-lg-3 col-md-4">
               <div className="features feature-primary feature-bg border-0 p-4 rounded shadow">
                 <div className="fea-icon rounded text-white title-dark">
                   <i className="uil uil-history"></i>
@@ -65,6 +65,28 @@ const Feature = () => {
                   <p className="text-muted para mt-2 mb-0">
                     Choose the delivery method that matches your requirements.
                     We provides fast and quick pick and drop facility
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-3 col-md-4">
+              <div className="features feature-primary feature-bg border-0 p-4 rounded shadow">
+                <div className="fea-icon rounded text-white title-dark">
+                  <i className="uil uil-bolt"></i>
+                </div>
+
+                <div className="content mt-3">
+                  <a
+                    href="page-single-service.html"
+                    className="title h5 text-dark"
+                  >
+                    We are pasionate
+                  </a>
+                  <p className="text-muted para mt-2 mb-0">
+                    Everything we are doing with enthusiasm as it makes us feel
+                    satisfied and cheerful, full of energy which is the vitality
+                    of life
                   </p>
                 </div>
               </div>

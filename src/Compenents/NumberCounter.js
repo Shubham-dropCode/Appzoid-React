@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Parallax } from "react-parallax";
 
-const NumberCounter = () => {
+const NumberCounter = (props) => {
   useEffect(() => {
     const counter = document.querySelectorAll(".counter-value");
     const speed = 2500; // The lower the slower
@@ -37,7 +37,7 @@ const NumberCounter = () => {
     <React.Fragment>
       <Parallax
         className="section bg-primary"
-        bgImage="../images/cta04.png"
+        bgImage={props.imgSrc}
         style={{ innerHeight: "100%" }}
         strength={-450}
         bgImageSizes="100%"
@@ -52,7 +52,7 @@ const NumberCounter = () => {
                   </span>
                 </h2>
                 <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  HAPPY CUSTOMERS
+                  {props.heading1}
                 </span>
               </div>
             </div>
@@ -65,7 +65,7 @@ const NumberCounter = () => {
                   </span>
                 </h2>
                 <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  SMART DEVICES REPAIRED
+                  {props.heading2}
                 </span>
               </div>
             </div>
@@ -78,7 +78,7 @@ const NumberCounter = () => {
                   </span>
                 </h2>
                 <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  MOBILES REPAIRED
+                  {props.heading3}
                 </span>
               </div>
             </div>
@@ -91,7 +91,7 @@ const NumberCounter = () => {
                   </span>
                 </h2>
                 <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  OS INSTALLED
+                  {props.heading4}
                 </span>
               </div>
             </div>
