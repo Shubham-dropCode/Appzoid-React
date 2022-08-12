@@ -1,6 +1,7 @@
 import React from "react";
 import BreadCrumb from "../Compenents/BreadCrumb";
 import Card from "../Compenents/Card";
+import Footer from "../Compenents/Footer";
 import NavBar from "../Compenents/NavBar";
 
 const OurProducts = () => {
@@ -56,6 +57,7 @@ const OurProducts = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </React.Fragment>
   );
 };
