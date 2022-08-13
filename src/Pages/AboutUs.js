@@ -9,6 +9,7 @@ import Footer from "../Compenents/Footer";
 import FounderAndDirector from "../Compenents/FounderAndDirector";
 import Testimonial from "../Compenents/Testimonial";
 import PartnersBrands from "../Compenents/PartnersBrands";
+import BackToTop from "../Compenents/BackToTop";
 
 const AboutUs = () => {
   return (
@@ -38,6 +39,7 @@ const AboutUs = () => {
         <PartnersBrands />
       </div>
       <Footer />
+      <BackToTop />
     </>
   );
 };

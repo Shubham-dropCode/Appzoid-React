@@ -1,4 +1,5 @@
 import React from "react";
+import BackToTop from "../Compenents/BackToTop";
 import BreadCrumb from "../Compenents/BreadCrumb";
 import Card from "../Compenents/Card";
 import Footer from "../Compenents/Footer";
@@ -58,6 +59,7 @@ const OurProducts = () => {
         </div>
       </section>
       <Footer />
+      <BackToTop />
     </React.Fragment>
   );
 };

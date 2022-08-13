@@ -5,8 +5,13 @@ import "./App.css";
 import ComingSoonPage from "./Pages/ComingSoonPage";
 import ContactUs from "./Pages/ContactUs";
 import OurProducts from "./Pages/OurProducts";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
       <BrowserRouter>

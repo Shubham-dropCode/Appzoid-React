@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   const CurrDate = () => {
@@ -48,9 +49,9 @@ const Footer = () => {
               <div className="footer-py-60">
                 <div className="row">
                   <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
-                    <a href="#" className="logo-footer">
+                    <Link to="/" className="logo-footer">
                       <img src="./../images/logo-light-appzoid.png" alt="" />
-                    </a>
+                    </Link>
                     <p className="mt-4">
                       Being the best in our field means that we are committed to
                       every project, we have ingenious ideas that become reality
@@ -122,28 +123,28 @@ const Footer = () => {
                     <h6 className="footer-head">Company</h6>
                     <ul className="list-unstyled footer-list mt-4">
                       <li>
-                        <a href="page-aboutus.html" className="text-foot">
+                        <Link to="/AboutUs" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> About
                           us
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="page-services-two.html" className="text-foot">
+                        <Link to="/OurProducts" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> Our
                           Product
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="page-team.html" className="text-foot">
+                        <Link to="/ComingSoon" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> Coming
                           Soon
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="page-pricing.html" className="text-foot">
+                        <Link to="/ContactUs" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> Contact
                           Us
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -214,12 +215,12 @@ const Footer = () => {
             <div className="row align-items-center">
               <div className="col">
                 <div className="text-center">
-                  <p class="mb-0 text-foot">
+                  <p className="mb-0 text-foot">
                     © Copyright {new Date().getFullYear()}
                     <a
                       href="http://www.shreethemes.in/"
                       target="_blank"
-                      class="text-reset"
+                      className="text-reset"
                     >
                       . Appzoid by WISH
                     </a>

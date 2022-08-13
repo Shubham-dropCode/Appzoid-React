@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -9,6 +9,73 @@ const NavBar = () => {
       isOpen.style.display = "none";
     } else {
       isOpen.style.display = "block";
+    }
+  }
+
+  function getClosest(elem, selector) {
+    // Element.matches() polyfill
+    if (!Element.prototype.matches) {
+      Element.prototype.matches =
+        Element.prototype.matchesSelector ||
+        Element.prototype.mozMatchesSelector ||
+        Element.prototype.msMatchesSelector ||
+        Element.prototype.oMatchesSelector ||
+        Element.prototype.webkitMatchesSelector ||
+        function (s) {
+          var matches = (this.document || this.ownerDocument).querySelectorAll(
+              s
+            ),
+            i = matches.length;
+          while (--i >= 0 && matches.item(i) !== this) {}
+          return i > -1;
+        };
+    }
+
+    // Get the closest matching element
+    for (; elem && elem !== document; elem = elem.parentNode) {
+      if (elem.matches(selector)) return elem;
+    }
+    return null;
+  }
+
+  function activateMenu() {
+    var menuItems = document.getElementsByClassName("sub-menu-item");
+    if (menuItems) {
+      var matchingMenuItem = null;
+      for (var idx = 0; idx < menuItems.length; idx++) {
+        if (menuItems[idx].href === window.location.href) {
+          matchingMenuItem = menuItems[idx];
+        }
+      }
+
+      if (matchingMenuItem) {
+        matchingMenuItem.classList.add("active");
+        var immediateParent = getClosest(matchingMenuItem, "li");
+        if (immediateParent) {
+          immediateParent.classList.add("active");
+        }
+
+        var parent = getClosest(matchingMenuItem, ".parent-menu-item");
+        if (parent) {
+          parent.classList.add("active");
+          var parentMenuitem = parent.querySelector(".menu-item");
+          if (parentMenuitem) {
+            parentMenuitem.classList.add("active");
+          }
+          var parentOfParent = getClosest(parent, ".parent-parent-menu-item");
+          if (parentOfParent) {
+            parentOfParent.classList.add("active");
+          }
+        } else {
+          var parentOfParent = getClosest(
+            matchingMenuItem,
+            ".parent-parent-menu-item"
+          );
+          if (parentOfParent) {
+            parentOfParent.classList.add("active");
+          }
+        }
+      }
     }
   }
 
@@ -70,13 +137,13 @@ const NavBar = () => {
 
       <header id="topnav" className="defaultscroll sticky tagline-height">
         <div className="container">
-          <a className="logo" href="index.html">
+          <Link className="logo" to="/">
             <span className="logo-light-mode">
               <img src="./../images/logo.png" className="l-dark" alt="" />
               <img src="./../images/logo.png" className="l-light" alt="" />
             </span>
             {/* <img src="./../images/logo.png" className="logo-dark-mode" alt="" /> */}
-          </a>
+          </Link>
 
           <div className="menu-extras">
             <div className="menu-item">
@@ -125,22 +192,22 @@ const NavBar = () => {
             <ul className="navigation-menu nav-right nav-light">
               <li className="has-submenu parent-parent-menu-item">
                 <Link to="/">HOME</Link>
-                <span className="menu-arrow"></span>
+                {/* <span className="menu-arrow"></span> */}
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
                 <Link to="/AboutUs">ABOUT US</Link>
-                <span className="menu-arrow"></span>
+                {/* <span className="menu-arrow"></span> */}
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
                 <Link to="/OurProducts">OUR PRODUCT</Link>
-                <span className="menu-arrow"></span>
+                {/* <span className="menu-arrow"></span> */}
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
                 <Link to="/ComingSoon">COMING SOON</Link>
-                <span className="menu-arrow"></span>
+                {/* <span className="menu-arrow"></span> */}
               </li>
 
               <li>

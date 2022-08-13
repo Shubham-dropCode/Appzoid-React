@@ -10,6 +10,7 @@ import Testimonial from "../Compenents/Testimonial";
 import WhoAreWe from "../Compenents/WhoAreWe";
 import NavBar from "../Compenents/NavBar";
 import Footer from "../Compenents/Footer";
+import BackToTop from "../Compenents/BackToTop";
 
 const Main = () => {
   return (
@@ -38,6 +39,7 @@ const Main = () => {
       <LatestBlog />
       <PartnersBrands />
       <Footer />
+      <BackToTop />
     </>
   );
 };

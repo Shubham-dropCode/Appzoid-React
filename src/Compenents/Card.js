@@ -3,27 +3,27 @@ import React from "react";
 const Card = (props) => {
   return (
     <React.Fragment>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 col-md-6">
-            <div class="row">
-              <div class="col-lg-12 mb-4 pb-2 picture-item">
-                <div class="card blog blog-primary hover-zoom shadow rounded overflow-hidden">
-                  <div class="image position-relative  overflow-hidden">
-                    <img src={props.imgSrc} class="img-fluid" alt="" />
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12 col-md-6">
+            <div className="row">
+              <div className="col-lg-12 mb-4 pb-2 picture-item">
+                <div className="card blog blog-primary hover-zoom shadow rounded overflow-hidden">
+                  <div className="image position-relative  overflow-hidden">
+                    <img src={props.imgSrc} className="img-fluid" alt="" />
                   </div>
 
-                  <div class="card-body content">
+                  <div className="card-body content">
                     <a
                       href="blog-detail-five.html"
-                      class="h5 title text-dark d-block mb-0"
+                      className="h5 title text-dark d-block mb-0"
                     >
                       {props.heading}
                     </a>
-                    <p class="text-muted mt-2 mb-2">{props.description}</p>
-                    <a href="blog-detail-five.html" class="btn btn-primary">
+                    <p className="text-muted mt-2 mb-2">{props.description}</p>
+                    <a href="blog-detail-five.html" className="btn btn-primary">
                       Learn More{" "}
-                      <i class="uil uil-arrow-right align-middle"></i>
+                      <i className="uil uil-arrow-right align-middle"></i>
                     </a>
                   </div>
                 </div>
