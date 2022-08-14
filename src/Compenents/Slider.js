@@ -1,56 +1,66 @@
-import React, { useState } from "react";
-import Carousel from "react-bootstrap/Carousel";
+import React from "react";
+import { Link } from "react-router-dom";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
-const Slider = () => {
-  const [index, setIndex] = useState(0);
-
-  const handleSelect = (selectedIndex, e) => {
-    setIndex(selectedIndex);
-  };
-
+export function ImageSlide({
+  bgImage = "",
+  title = "",
+  subTitle = "",
+  ctaLink = "",
+}) {
   return (
-    <section className="section">
-      <Carousel activeIndex={index} onSelect={handleSelect} interval={1500}>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="../images/bg/bg1.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="../images/bg/bg2.jpg"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            src="../images/bg/bh3.jpg"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-    </section>
+    <div className="bg-home zoom-image d-flex align-items-center">
+      <img
+        className="bg-overlay image-wrap"
+        src={"../images/bg/" + bgImage}
+        alt=""
+      />
+      <div className="bg-overlay bg-linear-gradient"></div>
+      <div className="container">
+        <div className="row justify-content-center mt-5">
+          <div className="col-12">
+            <div className="title-heading text-center">
+              <h4
+                className="display-2 fw-bold text-white title-dark"
+                dangerouslySetInnerHTML={{ __html: title }}
+              ></h4>
+              <p
+                className="para-desc mx-auto text-white-50"
+                dangerouslySetInnerHTML={{ __html: subTitle }}
+              ></p>
+              <div className="mt-4 pt-2">
+                <Link to={ctaLink} className="btn btn-primary m-1">
+                  REQUEST FOR SERVICE
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   );
-};
+}
 
-export default Slider;
+export default function Slider({ children, props = {} }) {
+  return (
+    <Swiper
+      onSlideChange={() => console.log("slide change")}
+      onSwiper={(swiper) => console.log(swiper)}
+      {...props}
+    >
+      {children !== undefined ? (
+        children.map((child, index) => {
+          return <SwiperSlide key={index}>{child}</SwiperSlide>;
+        })
+      ) : (
+        <>
+          <SwiperSlide>Slide 1</SwiperSlide>
+          <SwiperSlide>Slide 2</SwiperSlide>
+          <SwiperSlide>Slide 3</SwiperSlide>
+          <SwiperSlide>Slide 4</SwiperSlide>
+        </>
+      )}
+    </Swiper>
+  );
+}

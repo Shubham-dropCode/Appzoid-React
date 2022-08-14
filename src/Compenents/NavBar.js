@@ -6,44 +6,44 @@ import data from "../Data/Content.json";
 export default function NavBar() {
   return (
     <>
-      <div class="tagline bg-white">
-        <div class="container">
-          <div class="row">
-            <div class="col-12">
-              <div class="d-flex align-items-center justify-content-between">
-                <ul class="list-unstyled mb-0">
-                  <li class="list-inline-item mb-0">
+      <div className="tagline bg-white">
+        <div className="container">
+          <div className="row">
+            <div className="col-12">
+              <div className="d-flex align-items-center justify-content-between">
+                <ul className="list-unstyled mb-0">
+                  <li className="list-inline-item mb-0">
                     <a
                       href={data.WebMailAddress.linkTo}
-                      class="text-muted fw-normal"
+                      className="text-muted fw-normal"
                     >
                       <i
                         data-feather="mail"
-                        class="fea icon-sm text-primary"
+                        className="fea icon-sm text-primary"
                       ></i>
                       <strong>{data.WebMailAddress.title}</strong>
                     </a>
                   </li>
-                  <li class="list-inline-item mb-0 ms-3">
+                  <li className="list-inline-item mb-0 ms-3">
                     <a
                       href={data.TopBarContactNumber.linkTo}
-                      class="text-muted fw-normal"
+                      className="text-muted fw-normal"
                     >
                       <i
                         data-feather="map-pin"
-                        class="fea icon-sm text-primary"
+                        className="fea icon-sm text-primary"
                       ></i>
                       <strong>{data.TopBarContactNumber.title}</strong>
                     </a>
                   </li>
                 </ul>
 
-                <ul class="list-unstyled social-icon tagline-social mb-0">
+                <ul className="list-unstyled social-icon tagline-social mb-0">
                   {data.SocialMediaLinks.map((item, index) => {
                     return (
-                      <li class="list-inline-item mb-0" key={index}>
+                      <li className="list-inline-item mb-0" key={index}>
                         <Link to={item.linkTo}>
-                          <i class={"uil h6 mb-0 " + item.icon}></i>
+                          <i className={"uil h6 mb-0 " + item.icon}></i>
                         </Link>
                       </li>
                     );
@@ -55,32 +55,35 @@ export default function NavBar() {
         </div>
       </div>
 
-      <header id="topnav" class="defaultscroll sticky tagline-height bg-light">
-        <div class="container">
-          <Link class="logo" to="/">
+      <header
+        id="topnav"
+        className="defaultscroll sticky tagline-height bg-light"
+      >
+        <div className="container">
+          <Link className="logo" to="/">
             <img src={data.Logo} alt="logo" />
           </Link>
         </div>
-        <div class="menu-extras">
-          <div class="menu-item">
-            <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
-              <div class="lines">
+        <div className="menu-extras">
+          <div className="menu-item">
+            {/* <a className="navbar-toggle" id="isToggle" onClick="toggleMenu()">
+              <div className="lines">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
-            </a>
+            </a> */}
           </div>
         </div>
 
         <div id="navigation">
           {/* Right alogned mainmenu */}
-          <ul class="navigation-menu nav-dark justify-content-end">
+          <ul className="navigation-menu nav-dark justify-content-end">
             {data.MainMenu.map((menuitem, index) => {
               return (
-                <li class="has-submenu parent-parent-menu-item">
+                <li className="has-submenu parent-parent-menu-item" key={index}>
                   <Link to={menuitem.linkTo}>{menuitem.title}</Link>
-                  <span class="menu-arrow"></span>
+                  <span className="menu-arrow"></span>
                 </li>
               );
             })}

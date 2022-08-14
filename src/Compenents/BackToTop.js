@@ -46,7 +46,7 @@ const BackToTop = () => {
       </ul>
       <a
         href=""
-        onclick={topFunction()}
+        onClick={topFunction()}
         id="back-to-top"
         className="back-to-top rounded-pill"
       >
