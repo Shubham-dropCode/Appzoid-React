@@ -1,0 +1,24 @@
+{
+  "Logo": "../../assets/images/logo.png",
+  "WebMailAddress": {
+    "title": "Webmail Login",
+    "linkTo": "https://cmx5.my-hosting-panel.com/interface/root#/login"
+  },
+  "TopBarContactNumber": {
+    "title": "Contact us: +91-40-40025535",
+    "linkTo": "tel:+91-40-40025535"
+  },
+  "SocialMediaLinks": [
+    { "icon": "uil-facebook-f", "linkTo": "" },
+    { "icon": "uil-instagram", "linkTo": "" },
+    { "icon": "uil-twitter", "linkTo": "" },
+    { "icon": "uil-linkedin", "linkTo": "" }
+  ],
+  "MainMenu": [
+    { "title": "Home", "linkTo": "/" },
+    { "title": "About Us", "linkTo": "/aboutus" },
+    { "title": "Out Products", "linkTo": "/ourproducts" },
+    { "title": "Our Services", "linkTo": "/comingsoon" },
+    { "title": "Contact Us", "linkTo": "/contactus" }
+  ]
+}

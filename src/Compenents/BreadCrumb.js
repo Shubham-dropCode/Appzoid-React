@@ -5,7 +5,7 @@ const BreadCrumb = (props) => {
     <React.Fragment>
       <section
         className="bg-half-80 d-table bg-primary bg-gradient w-100"
-        style={{ background: "url(" + "images/bg/services.jpg" + ")" }}
+        style={{ background: "url('images/bg/services.jpg')" }}
       >
         <div className="bg-overlay bg-gradient-overlay"></div>
         <div className="container">

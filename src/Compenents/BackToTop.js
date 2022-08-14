@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from "react";
 
 const BackToTop = () => {
@@ -36,7 +37,7 @@ const BackToTop = () => {
           <a
             href="https://1.envato.market/starty"
             target="_blank"
-            className="btn btn-icon rounded-circle btn-primary mt-2"
+            className="btn btn-icon rounded-circle btn-primary mt-2" rel="noreferrer"
           >
             {" "}
             <i className="uil uil-shopping-cart fs-5"></i>{" "}

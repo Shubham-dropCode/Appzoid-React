@@ -6,6 +6,7 @@ import ComingSoonPage from "./Pages/ComingSoonPage";
 import ContactUs from "./Pages/ContactUs";
 import OurProducts from "./Pages/OurProducts";
 import { useEffect } from "react";
+import NewHome from "./Pages/NewHome";
 
 function App() {
   useEffect(() => {
@@ -16,7 +17,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" exact element={<NewHome />} />
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/OurProducts" element={<OurProducts />} />
           <Route path="/ComingSoon" element={<ComingSoonPage />} />
