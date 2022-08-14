@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
 import "swiper/css";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+import "swiper/css/autoplay";
 
 export function ImageSlide({
-  bgImage = "",
-  title = "",
-  subTitle = "",
-  ctaLink = "",
+  icon = "pe-7s-display1",
+  bgImage = "slide-1-1.jpg",
+  title = "Welcome to Appzoid & Resolution Pvt Ltd",
+  subTitle = "Specialized in all brand Smart device Service",
+  cta = {},
 }) {
   return (
     <div className="bg-home zoom-image d-flex align-items-center">
@@ -20,18 +27,22 @@ export function ImageSlide({
       <div className="container">
         <div className="row justify-content-center mt-5">
           <div className="col-12">
-            <div className="title-heading text-center">
-              <h4
-                className="display-2 fw-bold text-white title-dark"
-                dangerouslySetInnerHTML={{ __html: title }}
-              ></h4>
+            <div className="text-center text-white">
+              <h1 className="display-3 pt-5"><i className={icon}></i></h1>
               <p
-                className="para-desc mx-auto text-white-50"
+                className="display-2"
+                dangerouslySetInnerHTML={{ __html: title }}
+              ></p>
+              <p
+                className="lead"
                 dangerouslySetInnerHTML={{ __html: subTitle }}
               ></p>
               <div className="mt-4 pt-2">
-                <Link to={ctaLink} className="btn btn-primary m-1">
-                  REQUEST FOR SERVICE
+                <Link
+                  to={cta.linkTo}
+                  className="btn btn-primary m-1 text-uppercase"
+                >
+                  {cta.title}
                 </Link>
               </div>
             </div>
@@ -42,12 +53,13 @@ export function ImageSlide({
   );
 }
 
-export default function Slider({ children, props = {} }) {
+export default function Slider({ children, sliderProps = {} }) {
   return (
     <Swiper
+      modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
-      {...props}
+      {...sliderProps}
     >
       {children !== undefined ? (
         children.map((child, index) => {

@@ -1,0 +1,7 @@
+onhover-shadow:hover {
+  box-shadow: 0 10px 25px rgb(60 72 88 / 15%) !important;
+}
+
+.clickable {
+  cursor: pointer;
+}

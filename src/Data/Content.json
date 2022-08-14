@@ -20,5 +20,42 @@
     { "title": "Out Products", "linkTo": "/ourproducts" },
     { "title": "Our Services", "linkTo": "/comingsoon" },
     { "title": "Contact Us", "linkTo": "/contactus" }
-  ]
+  ],
+  "HomePage": {
+    "slides": [
+      {
+        "bgImage": "slide-1-1.jpg",
+        "title": "Welcome to Appzoid <br/> Resolution Pvt Ltd",
+        "subTitle": "Specialized in all brand Smart device Service",
+        "cta": { "title": "Request for service", "linkTo": "" }
+      },
+      {
+        "bgImage": "slide-1-1.jpg",
+        "title": "Fast &amp; Reliable Service",
+        "subTitle": "Specialized in all brand Smart device Service",
+        "cta": { "title": "Contact Us", "linkTo": "" }
+      }
+    ],
+    "featuresTitle": "Our Services",
+    "features": [
+      {
+        "icon": "la-wrench",
+        "title": "Honest Services",
+        "description": "We are so confident with our service that if we can’t fix the problem, you don’t pay. All repairs come with a 30 day guarantee",
+        "linkTo": ""
+      },
+      {
+        "icon": "la-cog",
+        "title": "Quick Repair",
+        "description": "Our company is reliable, and our work is trusted. We provide worry-free service you can always count on",
+        "linkTo": ""
+      },
+      {
+        "icon": "la-history",
+        "title": "On Time Delivery",
+        "description": "Choose the delivery method that matches your requirements. We provides fast and quick pick and drop facility",
+        "linkTo": ""
+      }
+    ]
+  }
 }
