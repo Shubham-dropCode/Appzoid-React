@@ -7,17 +7,17 @@ export default function FeatureSection({ title = "", features = [] }) {
   return (
     <section className="section">
       <div className="container text-center">
-        <h1 className="display-5 pb-5"><span className="underline">{title}</span></h1>
+        <h1 className="display-5 pb-5">{title}</h1>
         <div className="row">
           {features.map((feature, index) => {
             return (
               <div
-                className={"col-sm-" + featureSize}
+                className={"col-sm- col-md-" + featureSize}
                 onClick={() => {
                   navigate(feature.linkTo);
                 }}
               >
-                <div className="features feature-primary feature-bg border-0 p-4 rounded text-center clickable onhover-shadow">
+                <div className="features feature-primary feature-bg border-0 p-4 rounded text-center clickable">
                   <div className="fea-icon rounded-lg text-white title-dark shadow-lg m-auto">
                     <i className={"las la-2x " + feature.icon}></i>
                   </div>

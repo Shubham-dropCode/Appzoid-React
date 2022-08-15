@@ -102,6 +102,53 @@
       "description": "Telangana based Appzoid Resolutions is locked in changing the after deals benefit encounter. We esteem constancy, deftness, adeptness development, agility, supportability and specialised in Mobile Repairs and Services, We repair out of warranty mobile and smart gadgets.",
       "cta": { "title": "View Services", "linkTo": "" },
       "image": "../assets/images/AboutUs02.jpg"
+    },
+    "ComingSoonTitle": "Coming Soon",
+    "ComingSoonSubTitle":"Click below links to view our Upcoming Projects" ,
+    "ComingSoon":[{
+      "title":"Buy Back Product",
+      "description":"Write a short description, that will describe the title or something informational and useful.",
+      "icon":"uil  uil-clock-ten",
+      "linkTo": ""
+    },
+    {
+      "title":"Price Product",
+      "description":"Write a short description, that will describe the title or something informational and useful.",
+      "icon":"uil  uil-clock-two",
+      "linkTo": ""
+    },
+    {
+      "title":"Warranty Programme",
+      "description":"Write a short description, that will describe the title or something informational and useful.",
+      "icon":"uil  uil-clock",
+      "linkTo": ""
+    },
+    {
+      "title":"Free Pick and Drop",
+      "description":"Write a short description, that will describe the title or something informational and useful.",
+      "icon":"uil  uil-clock-seven",
+      "linkTo": ""
     }
+  ],
+  "testimonialTitle":"Testimonials",
+  "testimonialSubTitle":"Here are testimonials from clients that we have worked with and are happy to share their opinion about the process and the results.",
+  "feedbacks":[{
+    "comment":"You guys rock! Thank you for making it painless,have thought of it first. I am really satisfied with my first Smart phone service.",
+    "name":" Akash Singh"
+  },
+  {
+    "comment":"Appzoid did great job with fixing my mobile for a good price. I recommend any body with mobile problems, they will give you excellent service to all his customers.",
+    "name":" Prashant Aher"
+  },
+  {
+    "comment":"I was amazed at the quality of service. I like Appzoid more and more each day because it makes my life a lot easier. Thanks guys, keep up the good work! I recommend Appzoid to everyone.",
+    "name":" Jai Patil"
+  },
+  {
+    "comment":"Keep up the excellent work. Thank you so much for your help. This is simply unbelievable! ",
+    "name":" Om Mishra"
+  }
+],
+"LatestBlogTitle":"Latest From Our"
   }
 }

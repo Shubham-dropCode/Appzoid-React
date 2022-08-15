@@ -30,7 +30,7 @@ export default function QuickServiceSection({
           {QuickServices.map((service, index) => {
             return (
               <div
-                className={"mt-4 mb-4 col-sm-" + quickServiceSize}
+                className={"mt-4 mb-4 col-sm- col-md-" + quickServiceSize}
                 onClick={() => {
                   navigate(service.linkTo);
                 }}

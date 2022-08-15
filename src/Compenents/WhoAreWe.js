@@ -21,7 +21,7 @@ export default function WhoAreWe({
               {cta.title}
             </Link>
           </div>
-          <div className="col-4 text-end">
+          <div className="d-block col-md-4 text-end">
             <img className="w-100 shadow-md" src={image} alt={title} />
           </div>
         </FlexBox>
