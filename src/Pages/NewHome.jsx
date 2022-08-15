@@ -1,8 +1,11 @@
 import React from "react";
 import FeatureSection from "../Compenents/FeatureSection";
 import PageLayout from "../Compenents/PageLayout";
+// import QuickService from "../Compenents/OldQuickService";
+import QuickServiceSection from "../Compenents/QuickServiceSection";
 import Slider, { ImageSlide } from "../Compenents/Slider";
 import data from "../Data/Content.json";
+
 
 export default function NewHome() {
   return (
@@ -25,6 +28,7 @@ export default function NewHome() {
         })}
       </Slider>
       <FeatureSection title={data.HomePage.featuresTitle} features={data.HomePage.features} />
+      <QuickServiceSection title={data.HomePage.QuickServiceTitle} subTitle={data.HomePage.QuickServiceSubTitle} QuickServices={data.HomePage.QuickServices} />
     </PageLayout>
   );
 }

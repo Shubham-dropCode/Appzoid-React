@@ -5,7 +5,7 @@ import Hero from "../Compenents/Hero";
 import LatestBlog from "../Compenents/LatestBlog";
 import NumberCounter from "../Compenents/NumberCounter";
 import PartnersBrands from "../Compenents/PartnersBrands";
-import QuickService from "../Compenents/QuickService";
+// import QuickService from "../Compenents/OldQuickService";
 import Testimonial from "../Compenents/Testimonial";
 import WhoAreWe from "../Compenents/WhoAreWe";
 import NavBar from "../Compenents/NavBar";
@@ -19,7 +19,7 @@ const Main = () => {
       <Hero />
       {/* <Slider /> */}
       <Feature />
-      <QuickService />
+      {/* <QuickService /> */}
       <WhoAreWe
         heading="Who We Are"
         description="Telangana based Appzoid Resolutions is locked in changing the after deals benefit encounter. We esteem constancy, deftness,

@@ -1,6 +1,8 @@
 import React from "react";
 
 const QuickService = () => {
+  const QuickFeatureSize =
+    QuickFeatureSize.length > 0 ? 12 / QuickFeatureSize.length : 12;
   return (
     <React.Fragment>
       <section className="section">
