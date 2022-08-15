@@ -1,35 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import FlexBox from "./FlexBox";
 
-const WhoAreWe = (props) => {
-  console.log(props.img);
+export default function WhoAreWe({
+  title = "",
+  description = "",
+  cta = {},
+  image = "",
+}) {
   return (
-    <section className="section bg-gradient-primary">
-      <div className="container mt-60 ">
-        <div className="row align-items-center">
-          <div className="col-lg-7 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
-            <div className="section-title ms-lg-5">
-              <h4 className="title text-white fw-semibold mb-3">
-                {props.heading}
-              </h4>
-              <p className="text text-white">{props.description}</p>
-              <button className="btn btn-danger mt-3 mb-3">
-                VIEW SERVICES
-                <i className="uil uil-arrow-right align-middle ps-2" />
-              </button>
-            </div>
+    <section className="section pt-0">
+      <div className="container bg-light">
+        <FlexBox className="p-5">
+          <div className="col-8 px-2">
+            <h3 className="pb-3">
+              <span className="underline">{title}</span>
+            </h3>
+            <p className="lead pb-5">{description}</p>
+            <Link className="btn btn-primary" to={cta.linkTo}>
+              {cta.title}
+            </Link>
           </div>
-
-          <div className="col-lg-5 col-md-6">
-            <img
-              src={props.imgSrc}
-              className="img-fluid rounded shadow"
-              alt=""
-            />
+          <div className="col-4 text-end">
+            <img className="w-100 shadow-md" src={image} alt={title} />
           </div>
-        </div>
+        </FlexBox>
       </div>
     </section>
   );
-};
-
-export default WhoAreWe;
+}

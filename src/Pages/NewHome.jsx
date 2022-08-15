@@ -4,8 +4,8 @@ import PageLayout from "../Compenents/PageLayout";
 // import QuickService from "../Compenents/OldQuickService";
 import QuickServiceSection from "../Compenents/QuickServiceSection";
 import Slider, { ImageSlide } from "../Compenents/Slider";
+import WhoAreWe from "../Compenents/WhoAreWe";
 import data from "../Data/Content.json";
-
 
 export default function NewHome() {
   return (
@@ -27,8 +27,16 @@ export default function NewHome() {
           return <ImageSlide key={index} title={slide.title} cta={slide.cta} />;
         })}
       </Slider>
-      <FeatureSection title={data.HomePage.featuresTitle} features={data.HomePage.features} />
-      <QuickServiceSection title={data.HomePage.QuickServiceTitle} subTitle={data.HomePage.QuickServiceSubTitle} QuickServices={data.HomePage.QuickServices} />
+      <FeatureSection
+        title={data.HomePage.featuresTitle}
+        features={data.HomePage.features}
+      />
+      <QuickServiceSection
+        title={data.HomePage.QuickServiceTitle}
+        subTitle={data.HomePage.QuickServiceSubTitle}
+        QuickServices={data.HomePage.QuickServices}
+      />
+      <WhoAreWe {...data.HomePage.WhoWeAre} />
     </PageLayout>
   );
 }

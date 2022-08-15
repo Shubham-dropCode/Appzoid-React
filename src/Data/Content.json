@@ -58,45 +58,50 @@
       }
     ],
     "QuickServiceTitle": "Specialist in Quick Service",
-    "QuickServiceSubTitle" :"fastest repair service with best price!",
-    "QuickServices" : [{
-      "icon": "la-tools",
+    "QuickServiceSubTitle": "fastest repair service with best price!",
+    "QuickServices": [
+      {
+        "icon": "la-tools",
         "title": "Mobile Service",
         "description": "We are one of the leading smart devices service center, we undertake mobile and smart devices service with all major brands.",
         "linkTo": ""
-    },
-    {
-      "icon": "la-sun",
+      },
+      {
+        "icon": "la-sun",
         "title": "Smart Devices Service",
         "description": "Our company offers the most efficient and the greenest repair service for your smart devices with 30 days warranty",
         "linkTo": ""
-    },
-    {
-      "icon": "la-ban",
+      },
+      {
+        "icon": "la-ban",
         "title": "Virus Removal",
         "description": "We are experts in Virus, spyware and other malware removal from your affected mobile / smart devices.",
         "linkTo": ""
-    },
-    {
-      "icon": "la-lock",
+      },
+      {
+        "icon": "la-lock",
         "title": "Mobile Security",
         "description": "We are one of the leading smart devices service center, we undertake mobile and smart devices service with all major brands.",
         "linkTo": ""
-    },
-    {
-      "icon": "la-broadcast-tower",
+      },
+      {
+        "icon": "la-broadcast-tower",
         "title": "Network Services",
         "description": "Network down? No Internet? We provide reliable and timely service, We solving your networking problem in your Device.",
         "linkTo": ""
-    },
-    {
-      "icon": "la-cog",
+      },
+      {
+        "icon": "la-cog",
         "title": "Software Installation",
         "description": "Operating System Installations / Upgrade Services for your mobile, smart devices, Install setup at your door step.",
         "linkTo": ""
+      }
+    ],
+    "WhoWeAre": {
+      "title": "Who We Are",
+      "description": "Telangana based Appzoid Resolutions is locked in changing the after deals benefit encounter. We esteem constancy, deftness, adeptness development, agility, supportability and specialised in Mobile Repairs and Services, We repair out of warranty mobile and smart gadgets.",
+      "cta": { "title": "View Services", "linkTo": "" },
+      "image": "../assets/images/AboutUs02.jpg"
     }
-
-    ]
-
   }
 }

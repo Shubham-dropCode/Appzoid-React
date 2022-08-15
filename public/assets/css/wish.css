@@ -1,7 +1,23 @@
-onhover-shadow:hover {
+.onhover-shadow:hover {
   box-shadow: 0 10px 25px rgb(60 72 88 / 15%) !important;
+}
+
+.onhover-highlight:hover {
+  background-color: var(--bs-primary) !important;
+  color: white !important;
+}
+
+.onhover-highlight-text:hover {
+  color: var(--bs-primary) !important;
 }
 
 .clickable {
   cursor: pointer;
+}
+
+.underline {
+  background: linear-gradient(to left, transparent, var(--bs-orange) 100%);
+  background-position: 0 100%;
+  background-size: 40% 5px;
+  background-repeat: no-repeat;
 }
