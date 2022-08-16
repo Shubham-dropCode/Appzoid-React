@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const PartnersBrands = () => {
+const PartnersBrands = ({ brandImg = [] }) => {
   const setting = {
     dots: false,
     infinite: true,
@@ -22,7 +22,23 @@ const PartnersBrands = () => {
         <div className="container">
           <div className="row justify-content-center ">
             <Slider {...setting}>
-              <div className="col-lg-2 col-md-2 col-6 text-center">
+              {brandImg.map((img) => {
+                return (
+                  <div className="col-lg-2 col-md-2 col-6 text-center">
+                    <img
+                      src={img.imgSrc}
+                      className="img-fluid"
+                      alt=""
+                    />
+                  </div>
+                )
+              })}
+
+
+
+
+
+              {/* <div className="col-lg-2 col-md-2 col-6 text-center">
                 <img
                   src="../images/brands/Apple.png"
                   className="img-fluid"
@@ -89,7 +105,7 @@ const PartnersBrands = () => {
                   className="img-fluid"
                   alt=""
                 />
-              </div>
+              </div> */}
             </Slider>
           </div>
         </div>

@@ -9,17 +9,44 @@
     "linkTo": "tel:+91-40-40025535"
   },
   "SocialMediaLinks": [
-    { "icon": "uil-facebook-f", "linkTo": "" },
-    { "icon": "uil-instagram", "linkTo": "" },
-    { "icon": "uil-twitter", "linkTo": "" },
-    { "icon": "uil-linkedin", "linkTo": "" }
+    {
+      "icon": "uil-facebook-f",
+      "linkTo": ""
+    },
+    {
+      "icon": "uil-instagram",
+      "linkTo": ""
+    },
+    {
+      "icon": "uil-twitter",
+      "linkTo": ""
+    },
+    {
+      "icon": "uil-linkedin",
+      "linkTo": ""
+    }
   ],
   "MainMenu": [
-    { "title": "Home", "linkTo": "/" },
-    { "title": "About Us", "linkTo": "/aboutus" },
-    { "title": "Out Products", "linkTo": "/ourproducts" },
-    { "title": "Our Services", "linkTo": "/comingsoon" },
-    { "title": "Contact Us", "linkTo": "/contactus" }
+    {
+      "title": "Home",
+      "linkTo": "/"
+    },
+    {
+      "title": "About Us",
+      "linkTo": "/aboutus"
+    },
+    {
+      "title": "Out Products",
+      "linkTo": "/ourproducts"
+    },
+    {
+      "title": "Our Services",
+      "linkTo": "/comingsoon"
+    },
+    {
+      "title": "Contact Us",
+      "linkTo": "/contactus"
+    }
   ],
   "HomePage": {
     "slides": [
@@ -27,13 +54,19 @@
         "bgImage": "slide-1-1.jpg",
         "title": "Welcome to Appzoid <br/> Resolution Pvt Ltd",
         "subTitle": "Specialized in all brand Smart device Service",
-        "cta": { "title": "Request for service", "linkTo": "" }
+        "cta": {
+          "title": "Request for service",
+          "linkTo": ""
+        }
       },
       {
         "bgImage": "slide-1-1.jpg",
         "title": "Fast &amp; Reliable Service",
         "subTitle": "Specialized in all brand Smart device Service",
-        "cta": { "title": "Contact Us", "linkTo": "" }
+        "cta": {
+          "title": "Contact Us",
+          "linkTo": ""
+        }
       }
     ],
     "featuresTitle": "Our Services",
@@ -100,55 +133,164 @@
     "WhoWeAre": {
       "title": "Who We Are",
       "description": "Telangana based Appzoid Resolutions is locked in changing the after deals benefit encounter. We esteem constancy, deftness, adeptness development, agility, supportability and specialised in Mobile Repairs and Services, We repair out of warranty mobile and smart gadgets.",
-      "cta": { "title": "View Services", "linkTo": "" },
+      "cta": {
+        "title": "View Services",
+        "linkTo": ""
+      },
       "image": "../assets/images/AboutUs02.jpg"
     },
+    "CounterNumber": [
+      {
+        "icon": "las la-laugh",
+        "dataTarget": "2750",
+        "counterTitle": "HAPPY CUSTOMERS"
+      },
+      {
+        "icon": "las la-cube",
+        "dataTarget": "1250",
+        "counterTitle": "SMART DEVICES REPAIRED"
+      },
+      {
+        "icon": "las la-mobile",
+        "dataTarget": "950",
+        "counterTitle": "MOBILES REPAIRED"
+      },
+      {
+        "icon": "las la-windows",
+        "dataTarget": "450",
+        "counterTitle": "OS INSTALLED"
+      }
+    ],
     "ComingSoonTitle": "Coming Soon",
-    "ComingSoonSubTitle":"Click below links to view our Upcoming Projects" ,
-    "ComingSoon":[{
-      "title":"Buy Back Product",
-      "description":"Write a short description, that will describe the title or something informational and useful.",
-      "icon":"uil  uil-clock-ten",
-      "linkTo": ""
+    "ComingSoonSubTitle": "Click below links to view our Upcoming Projects",
+    "ComingSoon": [
+      {
+        "title": "Buy Back Product",
+        "description": "Write a short description, that will describe the title or something informational and useful.",
+        "icon": "uil  uil-clock-ten",
+        "linkTo": ""
+      },
+      {
+        "title": "Price Product",
+        "description": "Write a short description, that will describe the title or something informational and useful.",
+        "icon": "uil  uil-clock-two",
+        "linkTo": ""
+      },
+      {
+        "title": "Warranty Programme",
+        "description": "Write a short description, that will describe the title or something informational and useful.",
+        "icon": "uil  uil-clock",
+        "linkTo": ""
+      },
+      {
+        "title": "Free Pick and Drop",
+        "description": "Write a short description, that will describe the title or something informational and useful.",
+        "icon": "uil  uil-clock-seven",
+        "linkTo": ""
+      }
+    ],
+    "testimonialTitle": "Testimonials",
+    "testimonialSubTitle": "Here are testimonials from clients that we have worked with and are happy to share their opinion about the process and the results.",
+    "feedbacks": [
+      {
+        "comment": "You guys rock! Thank you for making it painless,have thought of it first. I am really satisfied with my first Smart phone service.",
+        "name": " Akash Singh"
+      },
+      {
+        "comment": "Appzoid did great job with fixing my mobile for a good price. I recommend any body with mobile problems, they will give you excellent service to all his customers.",
+        "name": " Prashant Aher"
+      },
+      {
+        "comment": "I was amazed at the quality of service. I like Appzoid more and more each day because it makes my life a lot easier. Thanks guys, keep up the good work! I recommend Appzoid to everyone.",
+        "name": " Jai Patil"
+      },
+      {
+        "comment": "Keep up the excellent work. Thank you so much for your help. This is simply unbelievable! ",
+        "name": " Om Mishra"
+      }
+    ],
+    "brandImg": [
+      {
+        "imgSrc": "../images/brands/Apple.png"
+      },
+      {
+        "imgSrc": "../images/brands/bajaj-alli.png"
+      },
+      {
+        "imgSrc": "../images/brands/Bajaj-Finserv.png"
+      },
+      {
+        "imgSrc": "../images/brands/lg2.png"
+      },
+      {
+        "imgSrc": "../images/brands/MI.png"
+      },
+      {
+        "imgSrc": "../images/brands/micromax.png"
+      },
+      {
+        "imgSrc": "../images/brands/OnePlus.png"
+      },
+      {
+        "imgSrc": "../images/brands/samsung.png"
+      },
+      {
+        "imgSrc": "../images/brands/vivo_173728.png"
+      }
+    ]
+  },
+  "FooterLogo": "./../images/logo-light-appzoid.png",
+  "FooterDescription": "Being the best in our field means that we are committed to every project, we have ingenious ideas that become reality and we make every client happy. Appzoid is the coherent, consistent, specialized in all brand smart devices quick repair.",
+  "FooterMenu": [
+    {
+      "title": "Home",
+      "linkTo": "/"
     },
     {
-      "title":"Price Product",
-      "description":"Write a short description, that will describe the title or something informational and useful.",
-      "icon":"uil  uil-clock-two",
-      "linkTo": ""
+      "title": "About Us",
+      "linkTo": "/aboutus"
     },
     {
-      "title":"Warranty Programme",
-      "description":"Write a short description, that will describe the title or something informational and useful.",
-      "icon":"uil  uil-clock",
-      "linkTo": ""
+      "title": "Out Products",
+      "linkTo": "/ourproducts"
     },
     {
-      "title":"Free Pick and Drop",
-      "description":"Write a short description, that will describe the title or something informational and useful.",
-      "icon":"uil  uil-clock-seven",
-      "linkTo": ""
+      "title": "Our Services",
+      "linkTo": "/comingsoon"
+    },
+    {
+      "title": "Contact Us",
+      "linkTo": "/contactus"
     }
   ],
-  "testimonialTitle":"Testimonials",
-  "testimonialSubTitle":"Here are testimonials from clients that we have worked with and are happy to share their opinion about the process and the results.",
-  "feedbacks":[{
-    "comment":"You guys rock! Thank you for making it painless,have thought of it first. I am really satisfied with my first Smart phone service.",
-    "name":" Akash Singh"
-  },
-  {
-    "comment":"Appzoid did great job with fixing my mobile for a good price. I recommend any body with mobile problems, they will give you excellent service to all his customers.",
-    "name":" Prashant Aher"
-  },
-  {
-    "comment":"I was amazed at the quality of service. I like Appzoid more and more each day because it makes my life a lot easier. Thanks guys, keep up the good work! I recommend Appzoid to everyone.",
-    "name":" Jai Patil"
-  },
-  {
-    "comment":"Keep up the excellent work. Thank you so much for your help. This is simply unbelievable! ",
-    "name":" Om Mishra"
-  }
-],
-"LatestBlogTitle":"Latest From Our"
-  }
+  "FooterBlogTitle": [
+    {}
+  ],
+  "FooterMediaLinks": [
+    {
+      "icon": "uil uil-facebook-f align-middle",
+      "linkTo": "",
+      "title": ""
+    },
+    {
+      "icon": "uil uil-linkedin",
+      "linkTo": "",
+      "title": "linkedin"
+    },
+    {
+      "icon": "uil uil-instagram align-middle",
+      "linkTo": "",
+      "title": "instagram"
+    },
+    {
+      "icon": "uil uil-twitter align-middle",
+      "linkTo": "",
+      "title": "twitter"
+    },
+    {
+      "icon": "uil uil-envelope align-middle",
+      "linkTo": "",
+      "title": "email"
+    }
+  ]
 }

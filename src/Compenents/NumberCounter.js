@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Parallax } from "react-parallax";
 
-const NumberCounter = (props) => {
+const NumberCounter = ({ CounterNumber = [] }) => {
   useEffect(() => {
     const counter = document.querySelectorAll(".counter-value");
     const speed = 2500; // The lower the slower
@@ -36,69 +36,35 @@ const NumberCounter = (props) => {
   return (
     <React.Fragment>
       <Parallax
-        className="section bg-primary"
-        bgImage={props.imgSrc}
+        className="section bg-primary "
+        // bgImage={props.imgSrc}
         style={{ innerHeight: "100%" }}
         strength={-450}
         bgImageSizes="100%"
       >
         <div className="container">
           <div className="row">
-            <div className="col-md-3 col-6">
-              <div className="counter-box position-relative text-center">
-                <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3">
-                  <span className="counter-value" data-target="2750">
-                    3
-                  </span>
-                </h2>
-                <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  {props.heading1}
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-6">
-              <div className="counter-box position-relative text-center">
-                <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3">
-                  <span className="counter-value" data-target="1250">
-                    1
-                  </span>
-                </h2>
-                <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  {props.heading2}
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-6">
-              <div className="counter-box position-relative text-center">
-                <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3">
-                  <span className="counter-value" data-target="950">
-                    0
-                  </span>
-                </h2>
-                <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  {props.heading3}
-                </span>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-6">
-              <div className="counter-box position-relative text-center">
-                <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-3">
-                  <span className="counter-value" data-target="450">
-                    3
-                  </span>
-                </h2>
-                <span className="counter-head fw-semibold title-dark text-white position-absolute top-50 start-50 translate-middle">
-                  {props.heading4}
-                </span>
-              </div>
-            </div>
+            {CounterNumber.map((number) => {
+              return (
+                <div className="col-md-3 col-6">
+                  <div className="counter-box position-relative px-2 text-center">
+                    <i class={"display-4 text-white opacity-8 las la-" + number.icon}></i>
+                    <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-8">
+                      <span className="counter-value" data-target={number.dataTarget}>
+                        3
+                      </span>
+                    </h2>
+                    <span className="counter-head fw-semibold title-dark text-white opacity-8">
+                      <h5>{number.counterTitle}</h5>
+                    </span>
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
       </Parallax>
-    </React.Fragment>
+    </React.Fragment >
   );
 };
 

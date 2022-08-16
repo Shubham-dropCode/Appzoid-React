@@ -10,7 +10,7 @@ const Testimonial = ({ title = "", subTitle = "", feedbacks = [] }) => {
     autoplay: true,
   };
   return (
-    <section className="section pb-4 pt-0">
+    <section className="section pb-4">
       <div className="container">
         <div className="row justify-content-center mb-4">
           <div className="col-12">

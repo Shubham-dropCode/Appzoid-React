@@ -1,11 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = () => {
-  const CurrDate = () => {
-    const prv = new Date().getFullYear();
-    console.log(prv);
-  };
+const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] }) => {
   return (
     <React.Fragment>
       <footer className="footer bg-footer">
@@ -30,14 +26,14 @@ const Footer = () => {
 
               <div className="col-md-4 mt-4 mt-sm-0">
                 <div className="text-md-end ms-5 ms-sm-0">
-                  <a
-                    href=""
+                  <Link
+                    to="/contactus"
                     className="btn btn-warning"
                     data-bs-toggle="modal"
                     data-bs-target="#contact-popup"
                   >
                     Contact Now
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -50,17 +46,30 @@ const Footer = () => {
                 <div className="row">
                   <div className="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
                     <Link to="/" className="logo-footer">
-                      <img src="./../images/logo-light-appzoid.png" alt="" />
+                      <img src={FooterLogo} alt="" />
                     </Link>
                     <p className="mt-4">
-                      Being the best in our field means that we are committed to
-                      every project, we have ingenious ideas that become reality
-                      and we make every client happy. Appzoid is the coherent,
-                      consistent, specialized in all brand smart devices quick
-                      repair.
+                      {description}
                     </p>
                     <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
-                      <li className="list-inline-item">
+                      {mediaLinks.map((Mlink) => {
+                        return (
+                          <li className="list-inline-item">
+                            <Link
+                              to={Mlink.linkTo}
+                              target="_blank"
+                              className="rounded"
+                            >
+                              <i
+                                className={Mlink.icon}
+                                title="facebook"
+                              ></i>
+                            </Link>
+                          </li>
+                        )
+                      })}
+
+                      {/* <li className="list-inline-item">
                         <a
                           href="https://www.facebook.com/"
                           target="_blank"
@@ -72,6 +81,7 @@ const Footer = () => {
                           ></i>
                         </a>
                       </li>
+
                       <li className="list-inline-item">
                         <a
                           href="http://linkedin.com"
@@ -81,6 +91,7 @@ const Footer = () => {
                           <i className="uil uil-linkedin" title="Linkedin"></i>
                         </a>
                       </li>
+
                       <li className="list-inline-item">
                         <a
                           href="https://www.instagram.com/"
@@ -93,6 +104,7 @@ const Footer = () => {
                           ></i>
                         </a>
                       </li>
+                      
                       <li className="list-inline-item">
                         <a
                           href="https://twitter.com/"
@@ -115,14 +127,24 @@ const Footer = () => {
                             title="email"
                           ></i>
                         </a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 
                   <div className="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <h6 className="footer-head">Company</h6>
                     <ul className="list-unstyled footer-list mt-4">
-                      <li>
+
+                      {menu.map((item) => {
+                        return (
+                          <li>
+                            <Link to={item.linkTo} className="text-foot">
+                              <i className="uil uil-angle-right-b me-1"></i> {item.title}
+                            </Link>
+                          </li>
+                        )
+                      })}
+                      {/* <li>
                         <Link to="/AboutUs" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> About
                           us
@@ -145,7 +167,7 @@ const Footer = () => {
                           <i className="uil uil-angle-right-b me-1"></i> Contact
                           Us
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
 

@@ -4,6 +4,7 @@ import FeatureSection from "../Compenents/FeatureSection";
 import LatestBlog from "../Compenents/LatestBlog";
 import NumberCounter from "../Compenents/NumberCounter";
 import PageLayout from "../Compenents/PageLayout";
+import PartnersBrands from "../Compenents/PartnersBrands";
 // import QuickService from "../Compenents/OldQuickService";
 import QuickServiceSection from "../Compenents/QuickServiceSection";
 import Slider, { ImageSlide } from "../Compenents/Slider";
@@ -41,14 +42,20 @@ export default function NewHome() {
         QuickServices={data.HomePage.QuickServices}
       />
       <WhoAreWe {...data.HomePage.WhoWeAre} />
+
       <ComingSoon title={data.HomePage.ComingSoonTitle}
         subTitle={data.HomePage.ComingSoonSubTitle}
         ComingSoon={data.HomePage.ComingSoon} />
-      {/* <NumberCounter /> */}
+
+      <NumberCounter CounterNumber={data.HomePage.CounterNumber} />
+
       <Testimonial title={data.HomePage.testimonialTitle}
         subTitle={data.HomePage.testimonialSubTitle}
         feedbacks={data.HomePage.feedbacks} />
-      <LatestBlog />
+
+      {/* <LatestBlog /> */}
+
+      <PartnersBrands brandImg={data.HomePage.brandImg} />
     </PageLayout>
   );
 }
