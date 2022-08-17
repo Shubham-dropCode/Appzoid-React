@@ -239,6 +239,152 @@
       }
     ]
   },
+  "AboutUs": {
+    "AboutUsBreadCrumbTitle": "About Us",
+    "WhoWeAre": {
+      "title": "We are Leading Company",
+      "description": "We are coherent, consistent, and well-integrated-together with numerous leading organizations which has helps us to provide excellent repair service to our customer and make then worry free about their Smart appliances, mobile devices and all other modern gadgets since 2018.",
+      "cta": {
+        "title": "View Services",
+        "linkTo": ""
+      },
+      "image": "../images/AboutUs01.jpg"
+    },
+    "featuresTitle": "Our Services",
+    "features": [
+      {
+        "icon": "las la-sun",
+        "title": "Honest Services",
+        "description": "We can guarantee to give you a FREE honest, friendly advice about any repairs fixes you need.",
+        "linkTo": ""
+      },
+      {
+        "icon": "uil uil-shutter-alt",
+        "title": "Quick Repair",
+        "description": "We value dependability, agility, innovation, simplicity, sustainability.",
+        "linkTo": ""
+      },
+      {
+        "icon": "uil  uil-clock-ten",
+        "title": "On Time Delivery",
+        "description": "We stand out from the crowd, as we understand the value of time of our client and hence provide quick service.",
+        "linkTo": ""
+      },
+      {
+        "icon": "uil uil-bolt",
+        "title": "We are pasionate",
+        "description": "Everything we are doing with enthusiasm as it makes us feel satisfied and cheerful, full of energy which is the vitality of life.",
+        "linkTo": ""
+      }
+    ],
+    "AboutCompanyTitle": "About Company",
+    "AboutCompanyDescription": "Appzoid accepts in keen innovation is the foremost consistent aftersales benefit stage that integrates multiple driving companies to supply palatable repair benefit.",
+    "AboutCompanyCard": [
+      {
+        "title": "Our History",
+        "description": "Leading Mobile Service Company",
+        "imgSrc": "../images/Aboutus-4.jpg",
+        "linkTo": ""
+      },
+      {
+        "title": "Our Mission",
+        "description": "We are Expert in this Field, Fast and Reliable Service.",
+        "imgSrc": "../images/Aboutus-5.jpg",
+        "linkTo": ""
+      },
+      {
+        "title": "Expanding Goal",
+        "description": "Our Expert have been Featured in press numerous times.",
+        "imgSrc": "../images/Aboutus-6.jpg",
+        "linkTo": ""
+      }
+    ],
+    "CounterNumber": [
+      {
+        "icon": "las la-mobile",
+        "dataTarget": "2450",
+        "counterTitle": "MOBILE REPAIRED"
+      },
+      {
+        "icon": "las la-cube",
+        "dataTarget": "1850",
+        "counterTitle": "SMART DEVICES REPAIRED"
+      },
+      {
+        "icon": "las la-user",
+        "dataTarget": "5200",
+        "counterTitle": "SATISFIED CUSTOMERS"
+      },
+      {
+        "icon": "uil uil-trophy ",
+        "dataTarget": "15",
+        "counterTitle": "AWARDS WON"
+      }
+    ],
+    "FoundersAndDirectorsTitle": "Founders and Directors",
+    "FoundersandDirectorsDescription": "Our Energetic Directors and Key Management personal who are always focused.",
+    "CardElement": [
+      {
+        "Name": "Mrs. Tanuja Amrawat",
+        "Post": "Founder and Director",
+        "description": "Mrs. Tanuja Amrawat is the founder of Appzoid who has the work experience of 31 years and had worked with multiple esteemed organizations as of 16 years logistic head for pan India and 15 years in insurance industry mainly specialized in mobile insurance and Affinity Products. Mrs.Tanuja Amrawat is a Graduate and has been working since 1989 with logistic partner at post of In-charge to pan India Head later joined Insurance Industry with ground level post to General manager with esteemed origination and Specialized in Mobile phone Insurance . Also a Ex-member of Business Network International for 3 years where she exchanged the business knowledge with India’s best known Business Tycoons Mrs. Tanuja Amrawat has more number of achievements in the field of Business as well as in Social Services."
+      },
+      {
+        "Name": "Mr. Amit Dubey",
+        "Post": "Chief Technology Officer",
+        "description": "Mrs. Tanuja Amrawat is the founder of Appzoid who has the work experience of 31 years and had worked with multiple esteemed organizations as of 16 years logistic head for pan India and 15 years in insurance industry mainly specialized in mobile insurance and Affinity Products. Mrs.Tanuja Amrawat is a Graduate and has been working since 1989 with logistic partner at post of In-charge to pan India Head later joined Insurance Industry with ground level post to General manager with esteemed origination and Specialized in Mobile phone Insurance . Also a Ex-member of Business Network International for 3 years where she exchanged the business knowledge with India’s best known Business Tycoons Mrs. Tanuja Amrawat has more number of achievements in the field of Business as well as in Social Services."
+      }
+    ],
+    "testimonialTitle": "Testimonials",
+    "testimonialSubTitle": "Here are testimonials from clients that we have worked with and are happy to share their opinion about the process and the results.",
+    "feedbacks": [
+      {
+        "comment": "You guys rock! Thank you for making it painless,have thought of it first. I am really satisfied with my first Smart phone service.",
+        "name": " Akash Singh"
+      },
+      {
+        "comment": "Appzoid did great job with fixing my mobile for a good price. I recommend any body with mobile problems, they will give you excellent service to all his customers.",
+        "name": " Prashant Aher"
+      },
+      {
+        "comment": "I was amazed at the quality of service. I like Appzoid more and more each day because it makes my life a lot easier. Thanks guys, keep up the good work! I recommend Appzoid to everyone.",
+        "name": " Jai Patil"
+      },
+      {
+        "comment": "Keep up the excellent work. Thank you so much for your help. This is simply unbelievable! ",
+        "name": " Om Mishra"
+      }
+    ],
+    "brandImg": [
+      {
+        "imgSrc": "../images/brands/Apple.png"
+      },
+      {
+        "imgSrc": "../images/brands/bajaj-alli.png"
+      },
+      {
+        "imgSrc": "../images/brands/Bajaj-Finserv.png"
+      },
+      {
+        "imgSrc": "../images/brands/lg2.png"
+      },
+      {
+        "imgSrc": "../images/brands/MI.png"
+      },
+      {
+        "imgSrc": "../images/brands/micromax.png"
+      },
+      {
+        "imgSrc": "../images/brands/OnePlus.png"
+      },
+      {
+        "imgSrc": "../images/brands/samsung.png"
+      },
+      {
+        "imgSrc": "../images/brands/vivo_173728.png"
+      }
+    ]
+  },
   "OurProductsBreadcrumbTitle": "Our Products",
   "ProductDetails": [
     {

@@ -1,23 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const AboutCompany = () => {
+const AboutCompany = (props) => {
   return (
     <React.Fragment>
-      <section
-        className="section"
-        // style="background: url('images/cta06.png') no-repeat right bottom;"
-      >
+      <section className="section pt-0">
         <div className="container-fluid">
           <div className="row justify-content-center">
             <div className="col-12">
               <div className="section-title text-center mb-4 pb-2">
-                <h4 className="title fw-semibold mb-3 mt-2">
-                  About Our Company
-                </h4>
+                <h1 className="display-5 pb-2">
+                  <span className="underline">{props.title}</span>
+                </h1>
                 <p className="para-desc text-muted mx-auto mb-0">
-                  Appzoid accepts in keen innovation is the foremost consistent
-                  aftersales benefit stage that integrates multiple driving
-                  companies to supply palatable repair benefit.
+                  {props.description}
                 </p>
               </div>
             </div>
@@ -26,7 +22,40 @@ const AboutCompany = () => {
 
         <div className="container ">
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 mt-4 pt-2">
+
+            {props.AboutCompanyCard.map((element) => {
+              return (
+                <div className="col-lg-4 col-md-6 mt-4 pt-2">
+                  <div className="card blog blog-image blog-primary shadow rounded overflow-hidden mx-2">
+                    <div className="card-img">
+                      <img
+                        src={element.imgSrc}
+                        className="img-fluid"
+                        alt=""
+                      />
+                      <div className="card-overlay"></div>
+                    </div>
+                    <div className="content px-4">
+                      <Link
+                        to={element.linkTo}
+                        className="h5 title d-block mb-0 text-white title-dark"
+                      >
+                        {element.title}
+                      </Link>
+
+                      <div className="d-flex author align-items-center mt-2">
+                        <div>
+                          <small className="text-white-50 user d-block">
+                            {element.description}
+                          </small>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )
+            })}
+            {/* <div className="col-lg-4 col-md-6 mt-4 pt-2">
               <div className="card blog blog-image blog-primary shadow rounded overflow-hidden mx-2">
                 <div className="card-img">
                   <img
@@ -111,7 +140,7 @@ const AboutCompany = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

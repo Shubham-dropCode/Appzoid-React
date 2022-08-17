@@ -8,6 +8,7 @@ import OurProducts from "./Pages/OurProducts";
 import { useEffect } from "react";
 import NewHome from "./Pages/NewHome";
 
+
 function App() {
   useEffect(() => {
     // 👇️ scroll to top on page load

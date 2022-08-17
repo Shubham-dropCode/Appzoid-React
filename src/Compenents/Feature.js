@@ -4,7 +4,7 @@ const Feature = () => {
   return (
     <React.Fragment>
       <section className="section pb-0">
-        <div className="container">
+        <div className="container text-center">
           <div className="row">
             <div className="col-lg-3 col-md-4">
               <div className="features feature-primary feature-bg border-0 p-4 rounded shadow">
