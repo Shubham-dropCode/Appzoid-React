@@ -1,6 +1,6 @@
 import React from "react";
 
-const ContactDetails = () => {
+const ContactDetails = (props) => {
   return (
     <React.Fragment>
       <section className="section pb-0">
@@ -17,13 +17,13 @@ const ContactDetails = () => {
                     Start working with Appzoid that can provide everything
                   </p>
                   <i className="uil uil-whatsapp h5" />
-                  <a href="tel:+91 9640462345" className="text-foot">
-                    +91 9640462345
+                  <a href="tel:`{props.PhoneWhatsapp}`" className="text-foot">
+                    {props.ContactPhoneWhatsapp}
                     <br />
                   </a>
                   <i className="uil uil-user h5" />
                   <a href="tel:+91 9052881000" className="text-foot">
-                    +91 9052881000
+                    {props.ContactPhoneUser}
                   </a>
                 </div>
               </div>
@@ -40,7 +40,7 @@ const ContactDetails = () => {
                     Start working with Appzoid that can provide everything
                   </p>
                   <a href="mailto:contact@example.com" className="text-foot">
-                    support@appzoid.co.in
+                    {props.Email}
                   </a>
                 </div>
               </div>
@@ -54,8 +54,7 @@ const ContactDetails = () => {
                 <div className="content mt-3">
                   <h5 className="footer-head">Location</h5>
                   <p className="text-muted">
-                    No.905, 9th Floor, Raghav Ratna Towers, Chirag ali lane,
-                    Abids, Hyderabad, Telangana – 500001
+                    {props.Address}
                   </p>
                   <a
                     href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1695.9999583990304!2d78.47042201023753!3d17.393010262357777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97632472588f%3A0x7a3346de965e335d!2sRaghava%20Ratna%20Towers%2C%20Fateh%20Maidan%20Lane%2C%20Mahesh%20Nagar%20Colony%2C%20Abids%2C%20Hyderabad%2C%20Telangana%20500001%2C%20India!5e0!3m2!1sen!2ske!4v1604484312177!5m2!1sen!2ske"
@@ -173,7 +172,7 @@ const ContactDetails = () => {
               <div className="card map border-0">
                 <div className="card-body p-0">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1695.9999583990304!2d78.47042201023753!3d17.393010262357777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97632472588f%3A0x7a3346de965e335d!2sRaghava%20Ratna%20Towers%2C%20Fateh%20Maidan%20Lane%2C%20Mahesh%20Nagar%20Colony%2C%20Abids%2C%20Hyderabad%2C%20Telangana%20500001%2C%20India!5e0!3m2!1sen!2ske!4v1604484312177!5m2!1sen!2ske"
                     // style="border:0"
                     allowfullscreen
                   ></iframe>

@@ -36,7 +36,7 @@
       "linkTo": "/aboutus"
     },
     {
-      "title": "Out Products",
+      "title": "Our Products",
       "linkTo": "/ourproducts"
     },
     {
@@ -156,7 +156,7 @@
         "counterTitle": "MOBILES REPAIRED"
       },
       {
-        "icon": "las la-windows",
+        "icon": "lab la-windows ",
         "dataTarget": "450",
         "counterTitle": "OS INSTALLED"
       }
@@ -239,6 +239,78 @@
       }
     ]
   },
+  "OurProductsBreadcrumbTitle": "Our Products",
+  "ProductDetails": [
+    {
+      "imgSrc": "../images/Our products/OurProduct1.png",
+      "ProductTitle": "365 DAYS ACCIDENTAL DAMAGE AND LIQUID DAMAGE TERMS AND CONDITIONS",
+      "ProductDescription": "Valid for 12 months ( 365 days )from the date of purchase."
+    },
+    {
+      "imgSrc": "../images/Our products/OurProduct2.jpg",
+      "ProductTitle": "365 DAYS ACCIDENTAL & LIQUID DAMAGE PROGRAMME FAQ",
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+    },
+    {
+      "imgSrc": "../images/Our products/OurProduct3.jpg",
+      "ProductTitle": "180 DAYS ONE TIME SCREEN REPLACEMENT",
+      "ProductDescription": "Valid for180 DAYS ( 6 months) from the date of purchase of device, To avail benefit under this offer contact us within 5 days from the date & time of damage."
+    },
+    {
+      "imgSrc": "../images/Our products/OurProduct4.jpg",
+      "ProductTitle": "365 DAYS ONE TIME SCREEN REPLACEMENT",
+      "ProductDescription": "To avail benefit under this offer, contact us within 5 days from the date & time of damage"
+    },
+    {
+      "imgSrc": "../images/Our products/OurProduct5.jpg",
+      "ProductTitle": "HARDWARE UPDATE",
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+    },
+    {
+      "imgSrc": "../images/Our products/OurProduct6.jpg",
+      "ProductTitle": "MOBILE SECURITY SYSTEMS",
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+    }
+  ],
+  "OurServicesBreadCrumbTitle": "Coming Soon",
+  "OurServicesCard": [
+    {
+      "icon": "las la-shopping-basket",
+      "title": "Buy Back Products"
+    },
+    {
+      "icon": "las la-undo-alt",
+      "title": "Price Protect"
+    },
+    {
+      "icon": "las la-tag",
+      "title": "Warranty Programme"
+    },
+    {
+      "icon": "las la-chevron-circle-down",
+      "title": "Free Pick-up and Drop"
+    },
+    {
+      "icon": "lab la-product-hunt",
+      "title": "Wide Good VAS Products"
+    },
+    {
+      "icon": "las la-shopping-cart",
+      "title": "E-Commerce"
+    },
+    {
+      "icon": "las la-headphones",
+      "title": "Accesories"
+    },
+    {
+      "icon": "las la-random",
+      "title": "Distribution"
+    },
+    {
+      "icon": "las la-file",
+      "title": "Electronic Retail Programme"
+    }
+  ],
   "FooterLogo": "./../images/logo-light-appzoid.png",
   "FooterDescription": "Being the best in our field means that we are committed to every project, we have ingenious ideas that become reality and we make every client happy. Appzoid is the coherent, consistent, specialized in all brand smart devices quick repair.",
   "FooterMenu": [
@@ -292,5 +364,10 @@
       "linkTo": "",
       "title": "email"
     }
-  ]
+  ],
+  "ContactBreacCrumbTitle": "Contact Us",
+  "ContactPhoneWhatsapp": "+91 9640462345",
+  "ContactPhoneUser": "+91 9052881000",
+  "ContactEmail": "support@appzoid.co.in",
+  "ContactAddress": "No.905, 9th Floor, Raghav Ratna Towers, Chirag ali lane, Abids, Hyderabad, Telangana – 500001"
 }
