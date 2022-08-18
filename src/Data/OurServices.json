@@ -1,0 +1,381 @@
+{
+    "OurServices": {
+        "MainTitle": "About Products",
+        "BuyBackProductsTitle": "BuyBackProducts",
+        "BuyBackProducts": [
+            {
+                "AboutProductDetails": [
+                    {
+                        "details": "<strong>Beneficiary/User:</strong>The purchaser, whose name is as shown on the However his / her Spouse, Children & Parents can avail the benefit under this scheme. Where the purchaser is a company, beneficiary/user shall mean any representative / employee of the company authorised to use & avail the benefit. Covered Equipment: Product as shown on purchase Invoice i.e. Mobile Handset."
+                    },
+                    {
+                        "details": "<strong>Covered Equipment:</strong>Product as shown on purchase Invoice i.e. Mobile Handset."
+                    },
+                    {
+                        "details": "<strong>Medium:</strong> Benefit of BUY BACK can be obtained any store or App & Online channel only."
+                    },
+                    {
+                        "details": "<strong>Cover Period:</strong>365 days from the date of Purchase of device."
+                    },
+                    {
+                        "details": "<strong>Device Value:</strong>Product i.e. Handset value as mentioned in Purchase Invoice."
+                    },
+                    {
+                        "details": "<strong>Event: Working Condition:</strong>Device is functional completely."
+                    },
+                    {
+                        "details": "<strong>Non-working:</strong>i.e. Device is non functional due to Liquid damage or Screen Broken."
+                    }
+                ],
+                "ExclusionsTitle": "Exclusions details",
+                "ExclusionsDetails": [
+                    {
+                        "details": "Any Criminal activity has come across including Terrorism activity, War, Nuclear Explosion, Radioactive Contamination, Chemical, Biochemical, Biological, Electromagnetic, Cyber Attack etc."
+                    },
+                    {
+                        "details": "Device purchased or exchange request beyond the territorial limits of India."
+                    },
+                    {
+                        "details": "Any exchange request arising post 365 days from the purchase date of device."
+                    },
+                    {
+                        "details": "Consequential loss of any kind or description including wear & tear, manufacturing defects etc."
+                    },
+                    {
+                        "details": "If claim for exchange is lodged within 21days from the date of purchase of buy back guarantee."
+                    },
+                    {
+                        "details": "Any mismatch of IMEI or serial number between box, device & Invoice."
+                    },
+                    {
+                        "details": "Any fault such as touch not working /physical damages/liquid damages/ scratches/chipping, charging defect or any similar kind of defect."
+                    }
+                ],
+                "termsConditionTitle": "Terms & Conditions scheme",
+                "termsConditionDetails": [
+                    {
+                        "details": "Offer can be availed or redeemed only on device which are in resalable condition."
+                    },
+                    {
+                        "details": "If Device is swapped due to DOA, this scheme is auto transferred subject to swap certificate to be submitted at Point of exchange."
+                    },
+                    {
+                        "details": "All original accessories including additional benefit as per consumer offer by brand should be submitted by the purchaser along with original device package box or material, In case of duplicate accessories including battery submitted, replacement shall not be offered in any circumstances."
+                    },
+                    {
+                        "details": "This offer is applicable only for brands such as Apple, Samsung , Vivo , Oppo , Xiaomi One Plus & Realme."
+                    },
+                    {
+                        "details": "Without Accessories or original device box additional deduction of 20% on device value."
+                    },
+                    {
+                        "details": "Device exchange is not allowed for 1st 21 days from the date of purchase of device i.e.21 days waiting period."
+                    },
+                    {
+                        "details": "All dispute as per India Jurisdiction."
+                    },
+                    {
+                        "details": "If Original device, accessories including battery is tampered then replacement shall not be allowed under this offer."
+                    },
+                    {
+                        "details": "Offer applicable only for Major Indian Citizen."
+                    }
+                ],
+                "SchemeTitle": "Scheme details",
+                "SchemeDetails": [
+                    {
+                        "details": "Protected or beneficiary agrees that:"
+                    },
+                    {
+                        "details": "Take all reasonable steps to safeguard the equipment."
+                    },
+                    {
+                        "details": "In the event of exchange, all benefits shall be forfeited, where there are any misrepresentations, misdescription or non-disclosure of any material fact significant to admission of liability and assessment of device at the time of exchange."
+                    }
+                ],
+                "CancellationsTitle": "Cancellations",
+                "CancellationsDetails": [
+                    {
+                        "details": "Administrator have all the rights to cancel this offer during wait period or 30 days from the date of purchase of buy back guarantee whichever is higher, where by administrator when cancel the offer entire amount shall be refunded."
+                    }
+                ],
+                "DisclaimerTitle": "Disclaimer",
+                "DisclaimerDetails": [
+                    {
+                        "details": "This is a non-insurance scheme please read the all the terms and condition carefully."
+                    },
+                    {
+                        "details": "Issuance of this document is deemed to the acceptance of all terms & condition under this programme ."
+                    }
+                ],
+                " DocumentChecklistTitle": " Document Checklist",
+                " DocumentChecklistDetails": [
+                    {
+                        "details": "Customer declaration towards discharge of liability & consent to resale (available on webpage)"
+                    },
+                    {
+                        "details": "Original Invoice Copy"
+                    },
+                    {
+                        "details": "Photo ID proof"
+                    },
+                    {
+                        "details": "If user is different than purchaser then consent or authorization letter duly signed & attested by purchaser. In case of company authorized certificate confirming employee who can avail benefit under this scheme"
+                    },
+                    {
+                        "details": "Swap Certificate in case of device is replaced or IMEI or serial number is changed under warranty by brand"
+                    }
+                ]
+            }
+        ]
+    },
+    "PriceProtectTitle": "Price Protect",
+    "PriceProtect": [
+        {
+            "title": "PRICE  PROTECT  PRODUCT FEATURES"
+        },
+        {
+            "PriceProtectDetails": [
+                {
+                    "details": "We will reimburse you for the difference between the price you paid for Brand New mobile phone and a lower printed advertised price for the same item (same brand, make, model name and/or number)."
+                },
+                {
+                    "details": "A printed advertisement means an advertisement appearing in the newspaper, magazine,  which states the authorized dealer or store name, item (including model number) and lower price as well as the applicable dates."
+                }
+            ]
+        },
+        {
+            "ImportantExclusionsTitle": "IMPORTANT EXCLUSIONS:",
+            "ImportantExclusionsDetails": [
+                {
+                    "details": "Products purchased by a person not resident in India."
+                },
+                {
+                    "details": "Shipping and/or transportation costs or price differences due to shipping, handling costs and sales tax."
+                },
+                {
+                    "details": "The price difference from an advertisement outside of India or in a Duty Free zone."
+                },
+                {
+                    "details": "Items advertised in or as result of “limited quantity,” “going out-of-business sales,” “cash only” or “close out” advertisements, items shown on price lists or price quotes, cost savings as a result of package offer, manufacturer’s coupons, employees discount, or free items, or where the advertised price includes bonus or free offers, special financing, installation or rebate, or one-of-a-kind or other limited offers."
+                },
+                {
+                    "details": "Any price difference found with an item sold as a special deal available only to the members of specific organizations or anywhere not open to the public, such as clubs and associations."
+                },
+                {
+                    "details": "Items purchased for resale, professional, or commercial use."
+                },
+                {
+                    "details": "Items advertised with rebate, redeemable manufacturer’s coupon, or any refund of any sort, in which case your purchase price will be determined by taking into account any such rebate or refund."
+                }
+            ]
+        },
+        {
+            "SettlementTitle": "SETTLEMENT:",
+            "SettlementDetails": [
+                {
+                    "details": "Post submission of all required documents, the claim will be processed within 7 working days."
+                },
+                {
+                    "details": "The details furnished above do not constitute the entire terms and conditions."
+                },
+                {
+                    "details": "For more details including special conditions & exclusions Please refer to our Policy document."
+                }
+            ]
+        },
+        {
+            "GeneralConditionTitle": " IMPORTANT GENERAL CONDITIONS:",
+            "GeneralConditionDetails": [
+                {
+                    "details": "The lower price must be on a printed advertisement BY MFR"
+                },
+                {
+                    "details": "The printed advertisement must be published within 30 days of your purchase."
+                },
+                {
+                    "details": "You must contact us about the claim within 7 days of printed advertisement."
+                },
+                {
+                    "details": "Claim payment on any claim will not include merchant’s credit, discount and/or manufacturer’s rebates, shipping and handling fees."
+                }
+            ]
+        },
+        {
+            "DocumentationTitle": "DOCUMENTATION:",
+            "DocumentationQuestion": "Below is the tentative list of documents required for processing of claims?",
+            "DocumentationDetails": [
+                {
+                    "details": "Price List."
+                },
+                {
+                    "details": "Original Purchase Invoice/ Bills"
+                },
+                {
+                    "details": "Any other requirement stated by claim examiner."
+                },
+                {
+                    "details": "The claims form and accompanying documents must be returned to us within 3 days from making original claim."
+                }
+            ]
+        }
+    ],
+    "WarrentyProgramTitle": "Warranty Programme",
+    "WarrentyProgram": [
+        {
+            "ExtendWarrentyTitle": " ONE YEAR  EXTENDED WARRANTY PRODUCT",
+            "ExtendWarrentyDetails": [
+                {
+                    "details": "<strong> Beneficiary/User –</strong> The purchaser of the Product EW equipment, whose name is as shown on the Invoice. However his / her Spouse, Children & Parents can use the equipment. Where the purchaser is a company, beneficiary/user shall be representative / employee of the company authorized to use the Equipment."
+                },
+                {
+                    "details": "<strong>Equipment:</strong> Product/s purchased as shown on purchase Invoice, for product category such as Mobiles, Tablets/Phablets (both Data & Voice) & Laptops and Cameras"
+                },
+                {
+                    "details": "<strong>Extended Warranty: </strong>Original manufacturer primary warranty of minimum 12 months is further extended by 1 year."
+                },
+                {
+                    "details": "<strong>Medium:</strong> Registered store  / owned retailers, distributors, web, online & app channels including all their associates"
+                },
+                {
+                    "details": "<strong>Administrator/Facilitator/Coordinator: </strong>APPZOID RESOLUTIONS  PRIVATE LTD  & its ancillary partner’s if any"
+                },
+                {
+                    "details": "<strong>Cover Period: </strong>From the date immediately after completion of 12months from product purchase date, till next 1 year"
+                }
+            ]
+        },
+        {
+            "ScopeOfProjectTitle": "SCOPE OF PRODUCT COVERAGE",
+            "ScopeOfProjectDetails": "Beneficiary/user has purchased EW Equipment along with proposer product or services from the date of purchase of the equipment and the said is mentioned in the invoice issued by Proposer medium to end customer i.e. Beneficiary/user and proposer have declared EW Equipment to APPZOID  in the following event to EW  Equipment will accept liability towards repair or replacement with same or similar equipment or at their option will arrange for payment as per Product  terms and condition, provided original equipment is covered under standard manufacturer warranty for minimum of 12 months, towards"
+        },
+        {
+            "CompensationProductTitle": "COMPENSATION OF PRODUCT",
+            "CompensationProductDetails": [
+                {
+                    "details": "<strong>Total Loss: –<strong> Compensation for any Total Loss claims will be by way of replacement through redeemable e – voucher designated or listed store or channel  Maximum liability , subject to depreciation depending on age of EW products equipment from date of purchase at the date & time of loss."
+                },
+                {
+                    "tableDetails": {
+                        "Age": "Up to 2 years",
+                        "Depreciation": "35% of Purchase Price"
+                    }
+                }
+            ]
+        },
+        {
+            "ProductTermsTitle": "PRODUCTS TERMS & CONDITION",
+            "ProductTermsDetails": [
+                {
+                    "details": "Beneficiary shall at all times agree & declare that:"
+                },
+                {
+                    "details": "Take all reasonable steps to safeguard the Product EW equipment."
+                },
+                {
+                    "details": "Product equipment is purchased along EW product/services at the time of purchase"
+                },
+                {
+                    "details": "In the event of loss, declare/disclose all the material fact about the incidence or event and submit salvage."
+                },
+                {
+                    "details": "In the event of a loss, all benefits shall be forfeited, where there are any misrepresentations, misdescripition or non disclosure of any material fact significant to admission of liability and assessment of loss."
+                }
+            ]
+        },
+        {
+            "ProductClaimTitle": "PRODUCTS CLAIM PROCEDURE",
+            "ProductClaimDetails": [
+                {
+                    "details": "In the event of loss Beneficiary is required to do following steps:-"
+                },
+                {
+                    "details": "The event needs to be notified to Appzoid immediately with Support@appzoid.co.in"
+                },
+                {
+                    "details": "Do not get the damaged equipment repaired unless authorized by Appzoid"
+                }
+            ]
+        },
+        {
+            "ExclusionProductTitle": "EXCLUSIONS OF PRODUCT",
+            "ExclusionProductDetails": [
+                {
+                    "details": "This Extended Warranty Product does not cover:"
+                },
+                {
+                    "details": "If the product does not carry an existing manufactures warranty valid in India"
+                },
+                {
+                    "details": "Any repair cost arising, which is done by unauthorized Service Centre which is proven by the Job Sheet provide by the authorized Service Centre."
+                },
+                {
+                    "details": "Loss caused by incorrect storage, poor care and maintenance, careless use, gross negligence, incorrect installation and incorrect set-up."
+                },
+                {
+                    "details": "No liability is accepted towards losses which are covered under the manufacturer’s warranty or similar guarantee prior to the inception or effect/start of cover."
+                },
+                {
+                    "details": "Loss or damage caused by wear and tear or normal deterioration."
+                },
+                {
+                    "details": "Any defect that is not initially covered by manufacturers or suppliers warranty"
+                },
+                {
+                    "details": "Routine maintenance, cleaning, lubrication, adjustments or alignments, overhaul, modification and de-scaling."
+                },
+                {
+                    "details": "Any defect caused as a result of improper usage, negligence, transit/transportation damage and willful misuse."
+                },
+                {
+                    "details": "Loss or damage caused by extraneous perils such as Fire, Explosion, flood, earthquake, accident, sand, water, or other natural calamities, voltage fluctuation, theft, attempted theft, malicious damage, and accidental damage"
+                },
+                {
+                    "details": "Reception or transmission problems resulting from external causes/perils."
+                },
+                {
+                    "details": "Batteries, control knobs, connecting cords, smart cards, light bulbs, attachments, cables, light covers or rain covers and other consumables as applicable."
+                },
+                {
+                    "details": "Data/hardware corruption arising due to virus infection."
+                },
+                {
+                    "details": "Modification/alteration or any sort made to the circuitry, original design of the product."
+                },
+                {
+                    "details": "The Serial Number/Model number of the set has been tampered with or removed"
+                },
+                {
+                    "details": "Any defect caused by usage of wrong power supply, voltage, corrosion, rust or stains or any problem with supply of electricity"
+                },
+                {
+                    "details": "Should necessary spare parts for repair be subject to import restrictions of a country resulting in delay in repairs, there will be no liability arising out of such delay."
+                },
+                {
+                    "details": "Products being recalled by the manufacturer."
+                },
+                {
+                    "details": "Claims arising from the failure to follow manufacturer’s instructions."
+                },
+                {
+                    "details": "Labor Costs, if no fault is found in the product is not covered"
+                },
+                {
+                    "details": "Cosmetic damage including but not limited to damage to paintwork or dents or scratches."
+                },
+                {
+                    "details": "Costs due to rust, corrosion or water damage."
+                },
+                {
+                    "details": "Unauthorized repairs performed by third parties or previously repaired by a non approved service Centre or service agent, excluding incidence such as case changes and the like."
+                },
+                {
+                    "details": "Loss or damage to recording media, software or data, software defects or software generated problems including, third party software or the reloading software. Loss of stored data during the process of dismantling for repairs"
+                },
+                {
+                    "details": "Any loss or damage to a person or property, direct, consequential or incidental damages arising from the use of or inability to use the product."
+                }
+            ]
+        }
+    ]
+}

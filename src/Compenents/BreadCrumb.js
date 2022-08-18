@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const BreadCrumb = (props) => {
-
+  const styless = {};
   return (
     <section
       className="bg-half-80 d-table bg-primary bg-gradient w-100"
@@ -24,11 +24,18 @@ const BreadCrumb = (props) => {
           <div className="col-lg-4 col-md-6 mt-4 mt-sm-0">
             <div className="text-md-end text-center">
               <nav aria-label="breadcrumb" className="d-inline-block">
-                <ul separator="<" className="breadcrumb breadcrumb-muted mb-0 p-0">
+                <ul
+                  separator="<"
+                  className="breadcrumb breadcrumb-muted mb-0 p-0"
+                >
                   <li className="breadcrumb-item">
                     <Link to="/">Appzoid </Link>
                   </li>
-                  <li className="breadcrumb-item active" aria-current="page">
+                  <li
+                    className="breadcrumb-item active"
+                    aria-current="page"
+                    separator="/"
+                  >
                     {props.heading}
                   </li>
                 </ul>

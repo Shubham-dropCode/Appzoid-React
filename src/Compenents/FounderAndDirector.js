@@ -22,7 +22,7 @@ const FounderAndDirector = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mb-4 pb-2">
-              <div className="card blog blog-primary shadow rounded overflow-hidden">
+              <div className="card blog blog-primary h-100 shadow rounded overflow-hidden">
                 <div className="row align-items-center px-3 g-0">
                   <h4 className="title fw-semibold mb-3 mt-2">
                     Mrs. Tanuja Amrawat
@@ -60,7 +60,7 @@ const FounderAndDirector = () => {
             </div>
 
             <div className="col-lg-6 mb-4 pb-2">
-              <div className="card blog blog-primary shadow rounded overflow-hidden">
+              <div className="card blog blog-primary h-100 shadow rounded overflow-hidden">
                 <div className="row align-items-center px-3 g-0">
                   <h4 className="title fw-semibold mb-3 mt-2">
                     Mr. Amit Dubey

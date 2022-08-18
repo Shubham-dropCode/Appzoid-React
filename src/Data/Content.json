@@ -316,7 +316,7 @@
         "counterTitle": "SATISFIED CUSTOMERS"
       },
       {
-        "icon": "uil uil-trophy ",
+        "icon": "uil uil-trophy",
         "dataTarget": "15",
         "counterTitle": "AWARDS WON"
       }
@@ -418,45 +418,73 @@
       "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
     }
   ],
-  "OurServicesBreadCrumbTitle": "Coming Soon",
+  "OurServicesBreadCrumbTitle": "Our Services",
   "OurServicesCard": [
     {
       "icon": "las la-shopping-basket",
-      "title": "Buy Back Products"
+      "title": "Buy Back Products",
+      "linkTo": ""
     },
     {
       "icon": "las la-undo-alt",
-      "title": "Price Protect"
+      "title": "Price Protect",
+      "linkTo": ""
     },
     {
       "icon": "las la-tag",
-      "title": "Warranty Programme"
+      "title": "Warranty Programme",
+      "linkTo": ""
     },
     {
       "icon": "las la-chevron-circle-down",
-      "title": "Free Pick-up and Drop"
+      "title": "Free Pick-up and Drop",
+      "linkTo": ""
     },
     {
       "icon": "lab la-product-hunt",
-      "title": "Wide Good VAS Products"
+      "title": "Wide Good VAS Products",
+      "linkTo": ""
     },
     {
       "icon": "las la-shopping-cart",
-      "title": "E-Commerce"
+      "title": "E-Commerce",
+      "linkTo": ""
     },
     {
       "icon": "las la-headphones",
-      "title": "Accesories"
+      "title": "Accesories",
+      "linkTo": ""
     },
     {
       "icon": "las la-random",
-      "title": "Distribution"
+      "title": "Distribution",
+      "linkTo": ""
     },
     {
       "icon": "las la-file",
-      "title": "Electronic Retail Programme"
+      "title": "Electronic Retail Programme",
+      "linkTo": ""
     }
   ],
+  "BuyBackProducts": {
+    "slides": [
+      {
+        "imgSrc": "buy-back1.jpg",
+        "title": "Buy Back Product",
+        "subTitle": "The Benefit of Buy Back Product scheme can also be availed by Spouse, Children and Parents of Purchaser."
+      },
+      {
+        "imgSrc": "buyback-2.jpg",
+        "title": "Buy Back Product",
+        "subTitle": "Take all reasonable steps to safeguard the equipment. Offer is applicable only for brands such as Apple, Samsung , Vivo , Oppo , Xiaomi One Plus & Realme."
+      },
+      {
+        "imgSrc": "buyback5.jpg",
+        "title": "Buy Back Product",
+        "subTitle": "Benefit of BUY BACK can be obtained at any store or App & Online channel. Cover period is 365 days from the date of Purchase of device."
+      }
+    ]
+  },
   "FooterLogo": "./../images/logo-light-appzoid.png",
   "FooterDescription": "Being the best in our field means that we are committed to every project, we have ingenious ideas that become reality and we make every client happy. Appzoid is the coherent, consistent, specialized in all brand smart devices quick repair.",
   "FooterMenu": [

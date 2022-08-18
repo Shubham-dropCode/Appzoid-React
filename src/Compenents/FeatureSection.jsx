@@ -17,7 +17,7 @@ export default function FeatureSection({ title = "", features = [] }) {
                   navigate(feature.linkTo);
                 }}
               >
-                <div className="features feature-primary feature-bg border-0 p-4 rounded text-center clickable">
+                <div className="features feature-primary feature-bg border-0 p-4 h-100 rounded text-center clickable">
                   <div className="fea-icon rounded-lg text-white title-dark shadow-lg m-auto">
                     <i className={"las la-2x " + feature.icon}></i>
                   </div>
