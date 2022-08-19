@@ -41,7 +41,7 @@
     },
     {
       "title": "Our Services",
-      "linkTo": "/comingsoon"
+      "linkTo": "/ourservices"
     },
     {
       "title": "Contact Us",
@@ -56,7 +56,7 @@
         "subTitle": "Specialized in all brand Smart device Service",
         "cta": {
           "title": "Request for service",
-          "linkTo": ""
+          "linkTo": "/ourservices"
         }
       },
       {
@@ -65,7 +65,7 @@
         "subTitle": "Specialized in all brand Smart device Service",
         "cta": {
           "title": "Contact Us",
-          "linkTo": ""
+          "linkTo": "/contactus"
         }
       }
     ],
@@ -135,7 +135,7 @@
       "description": "Telangana based Appzoid Resolutions is locked in changing the after deals benefit encounter. We esteem constancy, deftness, adeptness development, agility, supportability and specialised in Mobile Repairs and Services, We repair out of warranty mobile and smart gadgets.",
       "cta": {
         "title": "View Services",
-        "linkTo": ""
+        "linkTo": "/ourservices"
       },
       "image": "../assets/images/AboutUs02.jpg"
     },
@@ -316,7 +316,7 @@
         "counterTitle": "SATISFIED CUSTOMERS"
       },
       {
-        "icon": "uil uil-trophy",
+        "icon": "las la-trophy",
         "dataTarget": "15",
         "counterTitle": "AWARDS WON"
       }
@@ -438,32 +438,32 @@
     {
       "icon": "las la-chevron-circle-down",
       "title": "Free Pick-up and Drop",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     },
     {
       "icon": "lab la-product-hunt",
       "title": "Wide Good VAS Products",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     },
     {
       "icon": "las la-shopping-cart",
       "title": "E-Commerce",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     },
     {
       "icon": "las la-headphones",
       "title": "Accesories",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     },
     {
       "icon": "las la-random",
       "title": "Distribution",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     },
     {
       "icon": "las la-file",
       "title": "Electronic Retail Programme",
-      "linkTo": ""
+      "linkTo": "/ComingSoonServies"
     }
   ],
   "BuyBackProducts": {

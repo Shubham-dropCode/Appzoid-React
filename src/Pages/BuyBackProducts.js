@@ -14,7 +14,7 @@ const BuyBackProducts = () => {
           <div class="row">
             <div class="col-lg-8 col-md-6">
               <div class="section-title">
-                <h4 class="mt-4">{services.MainTitle}</h4>
+                <h4>{services.MainTitle}</h4>
                 <ul class="text-muted mb-0">
                   {services.BuyBackProducts.AboutProductDetails.map((e, idx) => {
                     return (<li><strong>{e.title}</strong> {e.details}</li>)

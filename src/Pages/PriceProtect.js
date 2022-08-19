@@ -16,7 +16,7 @@ const PriceProtect = () => {
                             <div class="section-title">
                                 <div class="rounded shadow bg-white">
 
-                                    <h4 class="mt-4">{services.MainTitle}</h4>
+                                    <h4>{services.MainTitle}</h4>
                                 </div>
                                 <p class="mt-2 text-soft"><strong>{services.PriceProtect.title}</strong></p>
                                 <ul class="text-muted mb-0">

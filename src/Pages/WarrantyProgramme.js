@@ -13,7 +13,7 @@ const WarrantyProgramme = () => {
                     <div class="row">
                         <div class="col-lg-8 col-md-6">
                             <div class="section-title">
-                                <h4 class="mt-4">{services.MainTitle}</h4>
+                                <h4 >{services.MainTitle}</h4>
                                 <p class="mt-2"><strong>{services.PriceProtect.title}</strong></p>
                                 <ul class="text-muted mb-0">
                                     {services.WarrentyProgram.ExtendWarrentyDetails.map((e, idx) => {
@@ -35,7 +35,7 @@ const WarrantyProgramme = () => {
                                 </ul>
                                 <h5 class="mt-4"> {services.WarrentyProgram.CompensationProductTitle} </h5>
                                 <ul>
-                                    <li class="mb-0 pt-2 pb-2">
+                                    <li class="mb-0 text-muted pt-2 pb-2">
                                         <strong>Total Loss: –</strong> Compensation for any Total Loss claims will be by way of replacement through redeemable e voucher designated or listed store or channel  Maximum liability , subject to depreciation depending on age of EW products equipment from date of purchase at the date & time of loss.
                                     </li>
                                 </ul>

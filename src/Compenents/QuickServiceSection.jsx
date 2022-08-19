@@ -73,10 +73,10 @@ export default function QuickServiceSection({
           })}
         </div>
         <div className="d-flex justify-content-center">
-          <button className="btn btn-primary mt-5">
+          <Link className="btn btn-primary mt-5" to="/ourservices">
             VIEW ALL SERVICE
             <i className="uil uil-arrow-right align-middle ps-2" />
-          </button>
+          </Link>
         </div>
       </div>
     </section>

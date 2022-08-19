@@ -25,7 +25,7 @@ const BreadCrumb = (props) => {
               <nav aria-label="breadcrumb" className="d-inline-block">
                 <ul separator="<" className="breadcrumb breadcrumb-muted mb-0 p-0">
                   <li className="breadcrumb-item" >
-                    <Link to="/">Appzoid </Link>
+                    <Link to="/">Home </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">
                     {props.heading}

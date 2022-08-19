@@ -29,8 +29,6 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
                   <Link
                     to="/contactus"
                     className="btn btn-warning"
-                    data-bs-toggle="modal"
-                    data-bs-target="#contact-popup"
                   >
                     Contact Now
                   </Link>
