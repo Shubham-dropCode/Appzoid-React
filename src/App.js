@@ -7,6 +7,9 @@ import ContactUs from "./Pages/ContactUs";
 import OurProducts from "./Pages/OurProducts";
 import { useEffect } from "react";
 import NewHome from "./Pages/NewHome";
+import BuyBackProducts from "./Pages/BuyBackProducts";
+import PriceProtect from "./Pages/PriceProtect";
+import WarrantyProgramme from "./Pages/WarrantyProgramme";
 
 
 function App() {
@@ -22,6 +25,9 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/OurProducts" element={<OurProducts />} />
           <Route path="/ComingSoon" element={<ComingSoonPage />} />
+          <Route path="/BuyBackProducts" element={<BuyBackProducts />} />
+          <Route path="/PriceProtect" element={<PriceProtect />} />
+          <Route path="/WarrentyProgramme" element={<WarrantyProgramme />} />
           <Route path="/ContactUs" element={<ContactUs />} />
         </Routes>
       </BrowserRouter>

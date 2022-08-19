@@ -22,20 +22,15 @@ const AboutCompany = (props) => {
 
         <div className="container ">
           <div className="row justify-content-center">
-
             {props.AboutCompanyCard.map((element) => {
               return (
                 <div className="col-lg-4 col-md-6 mt-4 pt-2">
                   <div className="card blog blog-image blog-primary shadow rounded overflow-hidden mx-2">
                     <div className="card-img">
-                      <img
-                        src={element.imgSrc}
-                        className="img-fluid"
-                        alt=""
-                      />
+                      <img src={element.imgSrc} className="img-fluid" alt="" />
                       <div className="card-overlay"></div>
                     </div>
-                    <div className="content px-4">
+                    <div className="content h-25 px-4">
                       <Link
                         to={element.linkTo}
                         className="h5 title d-block mb-0 text-white title-dark"
@@ -53,7 +48,7 @@ const AboutCompany = (props) => {
                     </div>
                   </div>
                 </div>
-              )
+              );
             })}
             {/* <div className="col-lg-4 col-md-6 mt-4 pt-2">
               <div className="card blog blog-image blog-primary shadow rounded overflow-hidden mx-2">

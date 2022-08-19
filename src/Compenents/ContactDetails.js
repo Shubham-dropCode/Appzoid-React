@@ -22,6 +22,7 @@ const ContactDetails = (props) => {
                     <br />
                   </a>
                   <i className="uil uil-user h5" />
+
                   <a href="tel:`{props.PhoneUser}`" className="text-foot">
                     {props.PhoneUser}
                   </a>
@@ -53,9 +54,7 @@ const ContactDetails = (props) => {
                 </div>
                 <div className="content mt-3">
                   <h5 className="footer-head">Location</h5>
-                  <p className="text-muted">
-                    {props.Address}
-                  </p>
+                  <p className="text-muted">{props.Address}</p>
                   <a
                     href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1695.9999583990304!2d78.47042201023753!3d17.393010262357777!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97632472588f%3A0x7a3346de965e335d!2sRaghava%20Ratna%20Towers%2C%20Fateh%20Maidan%20Lane%2C%20Mahesh%20Nagar%20Colony%2C%20Abids%2C%20Hyderabad%2C%20Telangana%20500001%2C%20India!5e0!3m2!1sen!2ske!4v1604484312177!5m2!1sen!2ske"
                     data-type="iframe"
