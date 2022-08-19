@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 const BreadCrumb = (props) => {
-
   return (
     <section
       className="bg-half-80 d-table bg-primary bg-gradient w-100"
@@ -25,7 +24,7 @@ const BreadCrumb = (props) => {
             <div className="text-md-end text-center">
               <nav aria-label="breadcrumb" className="d-inline-block">
                 <ul separator="<" className="breadcrumb breadcrumb-muted mb-0 p-0">
-                  <li className="breadcrumb-item">
+                  <li className="breadcrumb-item" >
                     <Link to="/">Appzoid </Link>
                   </li>
                   <li className="breadcrumb-item active" aria-current="page">

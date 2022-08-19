@@ -22,8 +22,8 @@ const ContactDetails = (props) => {
                     <br />
                   </a>
                   <i className="uil uil-user h5" />
-                  <a href="tel:+91 9052881000" className="text-foot">
-                    {props.ContactPhoneUser}
+                  <a href="tel:`{props.PhoneUser}`" className="text-foot">
+                    {props.PhoneUser}
                   </a>
                 </div>
               </div>
