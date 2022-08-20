@@ -8,7 +8,7 @@ const Card = (props) => {
           <div className="col-lg-12 col-md-6">
             <div className="row">
               <div className="col-lg-12 mb-4 pb-2 picture-item">
-                <div className="card blog blog-primary hover-zoom shadow rounded overflow-hidden">
+                <div className="card blog blog-primary hover-zoom shadow rounded border border-3 overflow-hidden">
                   <div className="image position-relative  overflow-hidden">
                     <img src={props.imgSrc} className="img-fluid" alt="" />
                   </div>

@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] }) => {
+const Footer = ({
+  FooterLogo = "",
+  description = "",
+  menu = [],
+  mediaLinks = [],
+}) => {
   return (
     <React.Fragment>
       <footer className="footer bg-footer">
@@ -26,10 +31,7 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
 
               <div className="col-md-4 mt-4 mt-sm-0">
                 <div className="text-md-end ms-5 ms-sm-0">
-                  <Link
-                    to="/contactus"
-                    className="btn btn-warning"
-                  >
+                  <Link to="/contactus" className="btn btn-warning">
                     Contact Now
                   </Link>
                 </div>
@@ -46,9 +48,7 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
                     <Link to="/" className="logo-footer">
                       <img src={FooterLogo} alt="" />
                     </Link>
-                    <p className="mt-4">
-                      {description}
-                    </p>
+                    <p className="mt-4">{description}</p>
                     <ul className="list-unstyled social-icon foot-social-icon mb-0 mt-4">
                       {mediaLinks.map((Mlink) => {
                         return (
@@ -58,13 +58,10 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
                               target="_blank"
                               className="rounded"
                             >
-                              <i
-                                className={Mlink.icon}
-                                title="facebook"
-                              ></i>
+                              <i className={Mlink.icon} title="facebook"></i>
                             </Link>
                           </li>
-                        )
+                        );
                       })}
 
                       {/* <li className="list-inline-item">
@@ -132,15 +129,15 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
                   <div className="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <h6 className="footer-head">Company</h6>
                     <ul className="list-unstyled footer-list mt-4">
-
                       {menu.map((item) => {
                         return (
                           <li>
                             <Link to={item.linkTo} className="text-foot">
-                              <i className="uil uil-angle-right-b me-1"></i> {item.title}
+                              <i className="uil uil-angle-right-b me-1"></i>{" "}
+                              {item.title}
                             </Link>
                           </li>
-                        )
+                        );
                       })}
                       {/* <li>
                         <Link to="/AboutUs" className="text-foot">
@@ -171,32 +168,32 @@ const Footer = ({ FooterLogo = "", description = "", menu = [], mediaLinks = [] 
 
                   <div className="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                     <h6 className="footer-head">Latest News</h6>
-                    <ul className="list-unstyled footer-list mt-4">
+                    {/* <ul className="list-unstyled footer-list mt-4">
                       <li>
-                        <a href="index.html" className="text-foot">
+                        <a href="" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> What is
                           Liquid Damage
                         </a>
                       </li>
                       <li>
-                        <a href="index.html" className="text-foot">
+                        <a href="" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> What is
                           Physical Damage?
                         </a>
                       </li>
                       <li>
-                        <a href="page-contact.html" className="text-foot">
+                        <a href="" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> How to
                           protect Your device from Physical Damage?
                         </a>
                       </li>
                       <li>
-                        <a href="index.html" className="text-foot">
+                        <a href="" className="text-foot">
                           <i className="uil uil-angle-right-b me-1"></i> How to
                           protect Your device from Liquid Damage?
                         </a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </div>
 
                   <div className="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
