@@ -1,11 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const BackToTop = () => {
-  function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
+
+  const [showTopBtn, setShowTopBtn] = useState(false);
+
+  const topFunction = () => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        setShowTopBtn(true);
+      } else {
+        setShowTopBtn(false);
+      }
+    });
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+
+  };
+
 
   return (
     <React.Fragment>
@@ -46,11 +60,11 @@ const BackToTop = () => {
       </ul>
       <a
         href=""
-        onClick={topFunction()}
+        onClick={() => topFunction()}
         id="back-to-top"
         className="back-to-top rounded-pill"
       >
-        <i className="mdi mdi-arrow-up"></i>
+        <i class="las la-arrow-up"></i>
       </a>
     </React.Fragment>
   );

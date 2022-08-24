@@ -66,38 +66,32 @@
             "columns": [
                 "Age",
                 "With All Original & Packaging Box",
-                "",
                 "Without or incomplete Original & Packaging Box"
             ],
             "rows": [
                 {
                     "Age": "",
                     "OriginalPackagingBox": "",
-                    "empt": "Working Condition",
                     "WithoutOriginalPackagingBox": "Working Condition"
                 },
                 {
                     "Age": "Up to 90 days",
                     "OriginalPackagingBox": "60% of Device Value",
-                    "empt": "",
                     "WithoutOriginalPackagingBox": "50% of Device Value"
                 },
                 {
                     "Age": "91 to 180 days",
                     "OriginalPackagingBox": "50% of Device Value",
-                    "empt": "",
                     "WithoutOriginalPackagingBox": "40% of Device Value"
                 },
                 {
                     "Age": "",
                     "OriginalPackagingBox": "",
-                    "empt": "Non working Condition",
-                    "WithoutOriginalPackagingBox": ""
+                    "WithoutOriginalPackagingBox": "Non working Condition"
                 },
                 {
                     "Age": "Up to 180 days",
                     "OriginalPackagingBox": "20% of Device Value",
-                    "empt": "",
                     "WithoutOriginalPackagingBox": "10% of Device Value"
                 }
             ]

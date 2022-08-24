@@ -158,7 +158,7 @@ const Footer = ({
                 <div className="text-center">
                   <p className="mb-0 text-foot">
                     © Copyright {new Date().getFullYear()}
-                    <a href="/" target="_blank" className="text-reset">
+                    <a href="http://ww-hub.com/" target="_blank" className="text-reset">
                       . Appzoid by WISH
                     </a>
                     .

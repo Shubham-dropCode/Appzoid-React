@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 const Card = (props) => {
   return (
     <React.Fragment>
-      <div className="container">
-        <div className="row">
+      <div className="container h-100">
+        <div className="row h-100">
           <div className="col-lg-12 col-md-6">
-            <div className="row">
+            <div className="row h-100">
               <div className="col-lg-12 mb-4 pb-2 picture-item">
-                <div className="card blog blog-primary hover-zoom shadow rounded border border-3 overflow-hidden">
-                  <div className="image position-relative  overflow-hidden">
+                <div className="card blog blog-primary h-100 hover-zoom shadow rounded border border-3 overflow-hidden">
+                  <div className="text-center h-100 position-relative overflow-hidden">
                     <img src={props.imgSrc} className="img-fluid" alt="" />
                   </div>
 

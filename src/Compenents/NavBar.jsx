@@ -26,10 +26,10 @@ export default function NavBar() {
           Element.prototype.webkitMatchesSelector ||
           function (s) {
             var matches = (
-                this.document || this.ownerDocument
-              ).querySelectorAll(s),
+              this.document || this.ownerDocument
+            ).querySelectorAll(s),
               i = matches.length;
-            while (--i >= 0 && matches.item(i) !== this) {}
+            while (--i >= 0 && matches.item(i) !== this) { }
             return i > -1;
           };
       }

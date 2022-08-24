@@ -30,7 +30,7 @@ const Services = () => {
         <section className="section">
           <div className="container">
             <div className="row">
-              <img src={mainData?.imgSrc} alt="COMING SOON" />
+              <img src={mainData?.imgSrc} alt="" />
               <div className="col-lg-8 col-md-6">
                 <div className="section-title">
                   <h4>{mainData?.MainTitle}</h4>
@@ -84,7 +84,7 @@ const Services = () => {
                               <td className=" text-center">
                                 {e.OriginalPackagingBox}
                               </td>
-                              <td className=" text-center">{e.empt}</td>
+                              {/* <td className=" text-center">{e.empt}</td> */}
                               <td className=" text-center">
                                 {e.WithoutOriginalPackagingBox}
                               </td>
