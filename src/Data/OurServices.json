@@ -1,8 +1,8 @@
 {
-    "MainTitle": "About Products",
-    "BuyBackProductsTitle": "Buy Back Products",
-    "BuyBackProducts": {
-        "AboutProductDetails": [
+    "Buy Back Products": {
+        "MainTitle": "About Products",
+        "Title": "Buy Back Products",
+        "element1": [
             {
                 "title": "Beneficiary/User:",
                 "details": "The purchaser, whose name is as shown on the However his / her Spouse, Children & Parents can avail the benefit under this scheme. Where the purchaser is a company, beneficiary/user shall mean any representative / employee of the company authorised to use & avail the benefit. Covered Equipment: Product as shown on purchase Invoice i.e. Mobile Handset."
@@ -32,8 +32,8 @@
                 "details": "i.e. Device is non functional due to Liquid damage or Screen Broken."
             }
         ],
-        "ExclusionsTitle": "Exclusions details",
-        "ExclusionsDetails": [
+        "title2": "Exclusions details",
+        "element2": [
             {
                 "details": "Any Criminal activity has come across including Terrorism activity, War, Nuclear Explosion, Radioactive Contamination, Chemical, Biochemical, Biological, Electromagnetic, Cyber Attack etc."
             },
@@ -56,8 +56,54 @@
                 "details": "Any fault such as touch not working /physical damages/liquid damages/ scratches/chipping, charging defect or any similar kind of defect."
             }
         ],
-        "termsConditionTitle": "Terms & Conditions scheme",
-        "termsConditionDetails": [
+        "table": "Compensation Details:",
+        "tableElement": {
+            "content": [
+                {
+                    "listItem": "We shall indemnify or exchange your re saleable device as per following Matrix:"
+                }
+            ],
+            "columns": [
+                "Age",
+                "With All Original & Packaging Box",
+                "",
+                "Without or incomplete Original & Packaging Box"
+            ],
+            "rows": [
+                {
+                    "Age": "",
+                    "OriginalPackagingBox": "",
+                    "empt": "Working Condition",
+                    "WithoutOriginalPackagingBox": "Working Condition"
+                },
+                {
+                    "Age": "Up to 90 days",
+                    "OriginalPackagingBox": "60% of Device Value",
+                    "empt": "",
+                    "WithoutOriginalPackagingBox": "50% of Device Value"
+                },
+                {
+                    "Age": "91 to 180 days",
+                    "OriginalPackagingBox": "50% of Device Value",
+                    "empt": "",
+                    "WithoutOriginalPackagingBox": "40% of Device Value"
+                },
+                {
+                    "Age": "",
+                    "OriginalPackagingBox": "",
+                    "empt": "Non working Condition",
+                    "WithoutOriginalPackagingBox": ""
+                },
+                {
+                    "Age": "Up to 180 days",
+                    "OriginalPackagingBox": "20% of Device Value",
+                    "empt": "",
+                    "WithoutOriginalPackagingBox": "10% of Device Value"
+                }
+            ]
+        },
+        "title4": "Terms & Conditions scheme",
+        "element4": [
             {
                 "details": "Offer can be availed or redeemed only on device which are in resalable condition."
             },
@@ -86,8 +132,8 @@
                 "details": "Offer applicable only for Major Indian Citizen."
             }
         ],
-        "SchemeTitle": "Scheme details",
-        "SchemeDetails": [
+        "title5": "Scheme details",
+        "element5": [
             {
                 "details": "Protected or beneficiary agrees that:"
             },
@@ -98,14 +144,14 @@
                 "details": "In the event of exchange, all benefits shall be forfeited, where there are any misrepresentations, misdescription or non-disclosure of any material fact significant to admission of liability and assessment of device at the time of exchange."
             }
         ],
-        "CancellationsTitle": "Cancellations",
-        "CancellationsDetails": [
+        "title6": "Cancellations",
+        "element6": [
             {
                 "details": "Administrator have all the rights to cancel this offer during wait period or 30 days from the date of purchase of buy back guarantee whichever is higher, where by administrator when cancel the offer entire amount shall be refunded."
             }
         ],
-        "DisclaimerTitle": "Disclaimer",
-        "DisclaimerDetails": [
+        "title7": "Disclaimer",
+        "element7": [
             {
                 "details": "This is a non-insurance scheme please read the all the terms and condition carefully."
             },
@@ -113,8 +159,8 @@
                 "details": "Issuance of this document is deemed to the acceptance of all terms & condition under this programme ."
             }
         ],
-        "DocumentlistTitle": "Document Checklist",
-        "DocumentlistDetails": [
+        "title8": "Document Checklist",
+        "element8": [
             {
                 "details": "Customer declaration towards discharge of liability & consent to resale (available on webpage)"
             },
@@ -132,10 +178,11 @@
             }
         ]
     },
-    "PriceProtectTitle": "Price Protect",
-    "PriceProtect": {
-        "title": "PRICE  PROTECT  PRODUCT FEATURES",
-        "PriceProtectDetails": [
+    "Price Protect": {
+        "MainTitle": "About Products",
+        "Title": "Price Protect",
+        "SubTitle": "PRICE  PROTECT  PRODUCT FEATURES",
+        "element1": [
             {
                 "details": "We will reimburse you for the difference between the price you paid for Brand New mobile phone and a lower printed advertised price for the same item (same brand, make, model name and/or number)."
             },
@@ -143,8 +190,8 @@
                 "details": "A printed advertisement means an advertisement appearing in the newspaper, magazine,  which states the authorized dealer or store name, item (including model number) and lower price as well as the applicable dates."
             }
         ],
-        "ImportantExclusionsTitle": "IMPORTANT EXCLUSIONS:",
-        "ImportantExclusionsDetails": [
+        "title2": "IMPORTANT EXCLUSIONS:",
+        "element2": [
             {
                 "details": "Products purchased by a person not resident in India."
             },
@@ -167,8 +214,8 @@
                 "details": "Items advertised with rebate, redeemable manufacturer’s coupon, or any refund of any sort, in which case your purchase price will be determined by taking into account any such rebate or refund."
             }
         ],
-        "SettlementTitle": "SETTLEMENT:",
-        "SettlementDetails": [
+        "title3": "SETTLEMENT:",
+        "element3": [
             {
                 "details": "Post submission of all required documents, the claim will be processed within 7 working days."
             },
@@ -179,8 +226,8 @@
                 "details": "For more details including special conditions & exclusions Please refer to our Policy document."
             }
         ],
-        "GeneralConditionTitle": " IMPORTANT GENERAL CONDITIONS:",
-        "GeneralConditionDetails": [
+        "title4": " IMPORTANT GENERAL CONDITIONS:",
+        "element4": [
             {
                 "details": "The lower price must be on a printed advertisement BY MFR"
             },
@@ -194,9 +241,9 @@
                 "details": "Claim payment on any claim will not include merchant’s credit, discount and/or manufacturer’s rebates, shipping and handling fees."
             }
         ],
-        "DocumentationTitle": "DOCUMENTATION:",
+        "title5": "DOCUMENTATION:",
         "DocumentationQuestion": "Below is the tentative list of documents required for processing of claims?",
-        "DocumentationDetails": [
+        "element5": [
             {
                 "details": "Price List."
             },
@@ -211,10 +258,11 @@
             }
         ]
     },
-    "WarrentyProgramTitle": "Warranty Programme",
-    "WarrentyProgram": {
-        "ExtendWarrentyTitle": " ONE YEAR  EXTENDED WARRANTY PRODUCT",
-        "ExtendWarrentyDetails": [
+    "Warranty Programme": {
+        "MainTitle": "About Products",
+        "Title": "Warranty Programme",
+        "SubTitle": " ONE YEAR  EXTENDED WARRANTY PRODUCT",
+        "element1": [
             {
                 "title": "Beneficiary/User –",
                 "details": "The purchaser of the Product EW equipment, whose name is as shown on the Invoice. However his / her Spouse, Children & Parents can use the equipment. Where the purchaser is a company, beneficiary/user shall be representative / employee of the company authorized to use the Equipment."
@@ -240,22 +288,35 @@
                 "details": "From the date immediately after completion of 12months from product purchase date, till next 1 year"
             }
         ],
-        "ScopeOfProjectTitle": "SCOPE OF PRODUCT COVERAGE",
-        "ScopeOfProjectDetails": "Beneficiary/user has purchased EW Equipment along with proposer product or services from the date of purchase of the equipment and the said is mentioned in the invoice issued by Proposer medium to end customer i.e. Beneficiary/user and proposer have declared EW Equipment to APPZOID  in the following event to EW  Equipment will accept liability towards repair or replacement with same or similar equipment or at their option will arrange for payment as per Product  terms and condition, provided original equipment is covered under standard manufacturer warranty for minimum of 12 months, towards",
-        "CompensationProductTitle": "COMPENSATION OF PRODUCT",
-        "CompensationProductDetails": [
+        "title2": "SCOPE OF PRODUCT COVERAGE",
+        "element2": [
             {
-                "details": "<strong>Total Loss: –<strong> Compensation for any Total Loss claims will be by way of replacement through redeemable e – voucher designated or listed store or channel  Maximum liability , subject to depreciation depending on age of EW products equipment from date of purchase at the date & time of loss."
-            },
-            {
-                "tableDetails": {
-                    "Age": "Up to 2 years",
-                    "Depreciation": "35% of Purchase Price"
-                }
+                "details": "Beneficiary/user has purchased EW Equipment along with proposer product or services from the date of purchase of the equipment and the said is mentioned in the invoice issued by Proposer medium to end customer i.e. Beneficiary/user and proposer have declared EW Equipment to APPZOID  in the following event to EW  Equipment will accept liability towards repair or replacement with same or similar equipment or at their option will arrange for payment as per Product  terms and condition, provided original equipment is covered under standard manufacturer warranty for minimum of 12 months, towards"
             }
         ],
-        "ProductTermsTitle": "PRODUCTS TERMS & CONDITION",
-        "ProductTermsDetails": [
+        "table": "COMPENSATION OF PRODUCT",
+        "tableElement": {
+            "content": [
+                {
+                    "listItem": "Total Loss: – Compensation for any Total Loss claims will be by way of replacement through redeemable e – voucher designated or listed store or channel  Maximum liability , subject to depreciation depending on age of EW products equipment from date of purchase at the date & time of loss."
+                },
+                {
+                    "listItem": "The  Maximum liability shall be calculated as follows by applying depreciation on the claim value only for total loss:"
+                }
+            ],
+            "columns": [
+                "Age",
+                "Depreciation"
+            ],
+            "rows": [
+                {
+                    "Age": "Up to 2 years",
+                    "OriginalPackagingBox": "35% of Purchase Price"
+                }
+            ]
+        },
+        "title4": "PRODUCTS TERMS & CONDITION",
+        "element4": [
             {
                 "details": "Beneficiary shall at all times agree & declare that:"
             },
@@ -272,8 +333,8 @@
                 "details": "In the event of a loss, all benefits shall be forfeited, where there are any misrepresentations, misdescripition or non disclosure of any material fact significant to admission of liability and assessment of loss."
             }
         ],
-        "ProductClaimTitle": "PRODUCTS CLAIM PROCEDURE",
-        "ProductClaimDetails": [
+        "title5": "PRODUCTS CLAIM PROCEDURE",
+        "element5": [
             {
                 "details": "In the event of loss Beneficiary is required to do following steps:-"
             },
@@ -284,8 +345,8 @@
                 "details": "Do not get the damaged equipment repaired unless authorized by Appzoid"
             }
         ],
-        "ExclusionProductTitle": "EXCLUSIONS OF PRODUCT",
-        "ExclusionProductDetails": [
+        "title6": "EXCLUSIONS OF PRODUCT",
+        "element6": [
             {
                 "details": "This Extended Warranty Product does not cover:"
             },
@@ -362,5 +423,29 @@
                 "details": "Any loss or damage to a person or property, direct, consequential or incidental damages arising from the use of or inability to use the product."
             }
         ]
+    },
+    "Free Pick-up and Drop": {
+        "Title": "Free Pick-up and Drop",
+        "imgSrc": "../images/ComingSoon.png"
+    },
+    "Wide Good VAS Products": {
+        "Title": "Wide Good VAS Products",
+        "imgSrc": "../images/ComingSoon.png"
+    },
+    "E-Commerce": {
+        "Title": "E-Commerce",
+        "imgSrc": "../images/ComingSoon.png"
+    },
+    "Accesories": {
+        "Title": "Accesories",
+        "imgSrc": "../images/ComingSoon.png"
+    },
+    "Distribution": {
+        "Title": "Distribution",
+        "imgSrc": "../images/ComingSoon.png"
+    },
+    "Electronic Retail Programme": {
+        "Title": "Electronic Retail Programme",
+        "imgSrc": "../images/ComingSoon.png"
     }
 }

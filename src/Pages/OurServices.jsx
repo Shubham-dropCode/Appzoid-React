@@ -9,7 +9,6 @@ const ComingSoon = () => {
     <PageLayout>
       <BreadCrumb heading={data.OurServicesBreadCrumbTitle} />
       <ComingSoonCard OurServicesCard={data.OurServicesCard} />
-
     </PageLayout>
   );
 };

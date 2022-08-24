@@ -1,17 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./Pages/Home";
 import AboutUs from "./Pages/AboutUs";
 import "./App.css";
+import Services from "./Pages/Services";
 import OurServices from "./Pages/OurServices";
 import ContactUs from "./Pages/ContactUs";
 import OurProducts from "./Pages/OurProducts";
-import ComingSoonServies from "./Pages/ComingSoonServices";
 import { useEffect } from "react";
 import NewHome from "./Pages/NewHome";
-import BuyBackProducts from "./Pages/BuyBackProducts";
-import PriceProtect from "./Pages/PriceProtect";
-import WarrantyProgramme from "./Pages/WarrantyProgramme";
-
+import Products from "./Pages/Products";
 
 function App() {
   useEffect(() => {
@@ -26,11 +22,10 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/OurProducts" element={<OurProducts />} />
           <Route path="/OurServices" element={<OurServices />} />
-          <Route path="/BuyBackProducts" element={<BuyBackProducts />} />
-          <Route path="/PriceProtect" element={<PriceProtect />} />
-          <Route path="/ComingSoonServies" element={<ComingSoonServies />} />
-          <Route path="/WarrentyProgramme" element={<WarrantyProgramme />} />
           <Route path="/ContactUs" element={<ContactUs />} />
+          {/* Services and Product of above two pages*/}
+          <Route path="/OurProducts/:type" element={<Products />} />
+          <Route path="/OurServices/:type" element={<Services />} />
         </Routes>
       </BrowserRouter>
     </>

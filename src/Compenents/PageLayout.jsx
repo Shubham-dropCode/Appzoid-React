@@ -13,7 +13,7 @@ export default function PageLayout({
     <>
       {showNavbar && <NavBar />}
       {children}
-      <Footer FooterLogo={data.FooterLogo} description={data.FooterDescription} menu={data.FooterMenu} mediaLinks={data.FooterMediaLinks} />
+      <Footer FooterLogo={data.FooterLogo} description={data.FooterDescription} menu={data.FooterMenu} mediaLinks={data.FooterMediaLinks} heading={data.FooterContactHeading} Address={data.FooterAddress} landline={data.FooterLandlineNo} mobile={data.FooterMobileNo} AddressIcon={data.FooterAddressIcon} landlineIcon={data.FooterLandlineIcon} mobileIcon={data.FooterMobileIcon} />
       <BackToTop />
     </>
   );

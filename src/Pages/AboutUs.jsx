@@ -1,6 +1,5 @@
 import React from "react";
 import BreadCrumb from "../Compenents/BreadCrumb";
-import Feature from "../Compenents/Feature";
 import AboutCompany from "../Compenents/AboutCompany";
 import NumberCounter from "../Compenents/NumberCounter";
 import FounderAndDirector from "../Compenents/FounderAndDirector";

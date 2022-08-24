@@ -17,10 +17,13 @@ const ComingSoon = ({ title = "", subTitle = "", ComingSoon = [] }) => {
             </div>
           </div>
 
-          {ComingSoon.map((feature) => {
+          {ComingSoon.map((feature, idx) => {
             return (
               <div className="col-md-3">
-                <div className="features feature-primary text-center border-0 px-lg-4 position-relative">
+                <div
+                  key={idx}
+                  className="features feature-primary text-center border-0 px-lg-4 position-relative"
+                >
                   <div className="fea-icon bg-soft rounded-circle shadow icon h5 mb-0 mx-auto">
                     <i className={"uil uil-" + feature.icon}></i>
                   </div>

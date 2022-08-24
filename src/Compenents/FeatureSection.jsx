@@ -9,10 +9,11 @@ export default function FeatureSection({ title = "", features = [] }) {
       <div className="container text-center">
         <h1 className="display-5 pb-5">{title}</h1>
         <div className="row">
-          {features.map((feature, index) => {
+          {features.map((feature, idx) => {
             return (
               <div
                 className={"col-sm- col-md-" + featureSize}
+                key={idx}
                 onClick={() => {
                   navigate(feature.linkTo);
                 }}

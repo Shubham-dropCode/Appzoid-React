@@ -246,7 +246,7 @@
       "description": "We are coherent, consistent, and well-integrated-together with numerous leading organizations which has helps us to provide excellent repair service to our customer and make then worry free about their Smart appliances, mobile devices and all other modern gadgets since 2018.",
       "cta": {
         "title": "View Services",
-        "linkTo": ""
+        "linkTo": "/ourservices"
       },
       "image": "../images/AboutUs01.jpg"
     },
@@ -390,32 +390,38 @@
     {
       "imgSrc": "../images/Our products/OurProduct1.png",
       "ProductTitle": "365 DAYS ACCIDENTAL DAMAGE AND LIQUID DAMAGE TERMS AND CONDITIONS",
-      "ProductDescription": "Valid for 12 months ( 365 days )from the date of purchase."
+      "ProductDescription": "Valid for 12 months ( 365 days )from the date of purchase.",
+      "linkTO": ""
     },
     {
       "imgSrc": "../images/Our products/OurProduct2.jpg",
       "ProductTitle": "365 DAYS ACCIDENTAL & LIQUID DAMAGE PROGRAMME FAQ",
-      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.",
+      "linkTO": ""
     },
     {
       "imgSrc": "../images/Our products/OurProduct3.jpg",
       "ProductTitle": "180 DAYS ONE TIME SCREEN REPLACEMENT",
-      "ProductDescription": "Valid for180 DAYS ( 6 months) from the date of purchase of device, To avail benefit under this offer contact us within 5 days from the date & time of damage."
+      "ProductDescription": "Valid for180 DAYS ( 6 months) from the date of purchase of device, To avail benefit under this offer contact us within 5 days from the date & time of damage.",
+      "linkTO": ""
     },
     {
       "imgSrc": "../images/Our products/OurProduct4.jpg",
       "ProductTitle": "365 DAYS ONE TIME SCREEN REPLACEMENT",
-      "ProductDescription": "To avail benefit under this offer, contact us within 5 days from the date & time of damage"
+      "ProductDescription": "To avail benefit under this offer, contact us within 5 days from the date & time of damage",
+      "linkTO": ""
     },
     {
       "imgSrc": "../images/Our products/OurProduct5.jpg",
       "ProductTitle": "HARDWARE UPDATE",
-      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.",
+      "linkTO": ""
     },
     {
       "imgSrc": "../images/Our products/OurProduct6.jpg",
       "ProductTitle": "MOBILE SECURITY SYSTEMS",
-      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff."
+      "ProductDescription": "We working hard to build a reputation of customer satisfaction through technical excellence and friendly staff.",
+      "linkTO": ""
     }
   ],
   "OurServicesBreadCrumbTitle": "Our Services",
@@ -423,47 +429,47 @@
     {
       "icon": "las la-shopping-basket",
       "title": "Buy Back Products",
-      "linkTo": "/BuyBackProducts"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-undo-alt",
       "title": "Price Protect",
-      "linkTo": "/PriceProtect"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-tag",
       "title": "Warranty Programme",
-      "linkTo": "/WarrentyProgramme"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-chevron-circle-down",
       "title": "Free Pick-up and Drop",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     },
     {
       "icon": "lab la-product-hunt",
       "title": "Wide Good VAS Products",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-shopping-cart",
       "title": "E-Commerce",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-headphones",
       "title": "Accesories",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-random",
       "title": "Distribution",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     },
     {
       "icon": "las la-file",
       "title": "Electronic Retail Programme",
-      "linkTo": "/ComingSoonServies"
+      "linkTo": "/Services"
     }
   ],
   "BuyBackProducts": {
@@ -539,6 +545,14 @@
       "title": "email"
     }
   ],
+  "FooterContactTitle": "CONTACT US",
+  "FooterContactHeading": "Registered office ",
+  "FooterAddress": " 42-1,Roma enclave 3 Near MOUNT CAREMAL GLOBAL HIGH SCHOOL BADANGPET HYDERABAD 500 0058 TELANGANA ",
+  "FooterAddressIcon": "las la-map-marker",
+  "FooterLandlineIcon": "las la-tty",
+  "FooterMobileIcon": "las la-mobile",
+  "FooterLandlineNo": " 04029310098",
+  "FooterMobileNo": " 9052881000",
   "ContactBreacCrumbTitle": "Contact Us",
   "ContactPhoneWhatsapp": "+91 9640462345",
   "ContactPhoneUser": "+91 9052881000",

@@ -10,11 +10,9 @@ const OurProducts = () => {
       {/* <NavBar /> */}
       <BreadCrumb heading={data.OurProductsBreadcrumbTitle} />
 
-
       <section className="section">
         <div className="container-fluid">
           <div className="row">
-
             {data.ProductDetails.map((element, index) => {
               return (
                 <div className="col-lg-6 mb-4 pb-2" key={index}>
@@ -22,9 +20,10 @@ const OurProducts = () => {
                     heading={element.ProductTitle}
                     description={element.ProductDescription}
                     imgSrc={element.imgSrc}
+                    linkTO={element.linkTO}
                   />
                 </div>
-              )
+              );
             })}
           </div>
         </div>

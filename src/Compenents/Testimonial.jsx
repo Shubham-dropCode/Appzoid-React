@@ -26,12 +26,12 @@ const Testimonial = ({ title = "", subTitle = "", feedbacks = [] }) => {
         <div className="row">
           <div className="col-12">
             <Slider {...setting}>
-              {feedbacks.map((feedback) => {
+              {feedbacks.map((feedback, idx) => {
                 return (
                   <div className="tiny-slide">
                     <div className="card border-0 text-center">
                       <div className="card-body">
-                        <p className="text-muted mt-4">
+                        <p className="text-muted mt-4" key={idx}>
                           " {feedback.comment} "
                         </p>
                         <h6 className="text-primary">- {feedback.name}</h6>

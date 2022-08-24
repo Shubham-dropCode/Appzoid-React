@@ -1,11 +1,9 @@
 import React from "react";
 import ComingSoon from "../Compenents/ComingSoon";
 import FeatureSection from "../Compenents/FeatureSection";
-import LatestBlog from "../Compenents/LatestBlog";
 import NumberCounter from "../Compenents/NumberCounter";
 import PageLayout from "../Compenents/PageLayout";
 import PartnersBrands from "../Compenents/PartnersBrands";
-// import QuickService from "../Compenents/OldQuickService";
 import QuickServiceSection from "../Compenents/QuickServiceSection";
 import Slider, { ImageSlide } from "../Compenents/Slider";
 import Testimonial from "../Compenents/Testimonial";

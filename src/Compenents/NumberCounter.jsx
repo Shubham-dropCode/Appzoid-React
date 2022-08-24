@@ -48,9 +48,16 @@ const NumberCounter = ({ CounterNumber = [] }) => {
               return (
                 <div className="col-md-3 col-6">
                   <div className="counter-box position-relative px-2 text-center">
-                    <i class={"display-4 text-white opacity-8 " + number.icon}></i>
+                    <i
+                      className={
+                        "display-4 text-white opacity-8 " + number.icon
+                      }
+                    ></i>
                     <h2 className="mb-0 display-1 fw-bold title-dark text-white mt-2 opacity-8">
-                      <span className="counter-value" data-target={number.dataTarget}>
+                      <span
+                        className="counter-value"
+                        data-target={number.dataTarget}
+                      >
                         3
                       </span>
                     </h2>
@@ -59,12 +66,12 @@ const NumberCounter = ({ CounterNumber = [] }) => {
                     </span>
                   </div>
                 </div>
-              )
+              );
             })}
           </div>
         </div>
       </Parallax>
-    </React.Fragment >
+    </React.Fragment>
   );
 };
 
